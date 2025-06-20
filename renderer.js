@@ -39,3 +39,8 @@ incrBtn.addEventListener("click", () => {
 decrBtn.addEventListener("click", () => {
   adjustFontSize(0.9);
 });
+
+/*TODO:
+- Implement hymn data loading from json
+- Display sample hymn content to left and right panel
+*/
