@@ -1,0 +1,24 @@
+{
+  "name": "hymnal",
+  "version": "1.0.0",
+  "description": "Hymnal is a desktop application to allow one to search through christian hymns.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwame-Owusu/hymnal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kwame-Owusu/hymnal/issues"
+  },
+  "homepage": "https://github.com/kwame-Owusu/hymnal#readme",
+  "dependencies": {
+    "electron": "^36.5.0"
+  }
+}
