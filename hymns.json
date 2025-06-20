@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "totalHymns": 1200,
+    "languages": ["english", "twi"]
+  },
+  "hymns": [
+    {
+      "id": 1,
+      "number": "1",
+      "english": {
+        "title": "Amazing Grace",
+        "verses": [
+          "Amazing grace! how sweet the sound,\n  That saved a wretch; like me!\nI once was lost, but now am found,\n  Was blind, but now I see.",
+          "’Twas grace that taught my heart to fear,\n  And grace my fears relieved;\nHow precious did that grace appear\n  The hour I first believed!",
+          "The Lord hath promised good to me,\n  His word my hope secures;\nHe will my shield and portion be\n  As long as life endures.",
+          "When we’ve been there ten thousand years,\n  Bright shining as the sun,\nWe’ve no less days to sing God’s praise\n  Than when we first begun."
+        ],
+        "chorus": "Optional chorus text"
+      },
+      "twi": {
+        "title": "Adom Nwonwa",
+        "verses": ["Twi verse 1...", "Twi verse 2..."],
+        "chorus": "Optional Twi chorus"
+      }
+    }
+  ]
+}
