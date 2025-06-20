@@ -8,7 +8,7 @@
 
 /**
  * Represents a book.
- * @param {integer} factor - factor to increase or decrease by.
+ * @param {number} factor - factor to increase or decrease by.
  */
 function adjustFontSize(factor) {
   const leftPanel = document.querySelector(".left-panel");
