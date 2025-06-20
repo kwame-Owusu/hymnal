@@ -1,3 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2px 1fr;
+  height: 100vh;
+}
+
+.left-panel {
+  background-color: #f0f8ff;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.divider {
+  background-color: #333;
+}
+
+.right-panel {
+  background-color: #fff8f0;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 10px;
 }
