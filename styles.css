@@ -39,3 +39,35 @@ p {
   line-height: 1.6;
   margin-bottom: 10px;
 }
+
+/* increment and decrement buttons*/
+.font-buttons {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.incr-btn,
+.decr-btn {
+  border: solid 1px #333;
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.incr-btn:hover,
+.decr-btn:hover {
+  background-color: #333;
+  color: white;
+}

@@ -20,7 +20,12 @@
       },
       "twi": {
         "title": "Adom Nwonwa",
-        "verses": ["Twi verse 1...", "Twi verse 2..."],
+        "verses": [
+          "Twi verse 1...",
+          "Twi verse 2...",
+          "Twi verse 3...",
+          "Twi verse 4..."
+        ],
         "chorus": "Optional Twi chorus"
       }
     }
