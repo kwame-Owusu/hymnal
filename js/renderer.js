@@ -62,16 +62,12 @@ function toggleLayout() {
   }
 
   if (sliderCheck.checked) {
-    container.style.gridTemplateColumns = "1fr 1px 1fr";
-    container.style.transition = "grid-template-columns 0.3s ease-in";
-    rightPanel.style.opacity = 1;
-    leftPanel.style.transition = "all 0.3s ease";
-    rightPanel.style.transition = "all 0.3s ease";
-    divider.style.transition = "all 0.3s ease";
+    container.className = "container two-column";
+    rightPanel.classList.remove("hidden");
     console.log("Layout: Two columns");
   } else {
-    rightPanel.style.opacity = 0;
-    container.style.gridTemplateColumns = "1fr";
+    container.className = "container single-column";
+    rightPanel.classList.add("hidden");
     console.log("Layout: One column");
   }
 }

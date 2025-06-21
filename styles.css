@@ -30,11 +30,21 @@ body {
   height: 100vh;
   overflow-y: auto;
   text-align: center;
+  transition: grid-template-columns 0.3s ease-in-out;
+}
+
+.container.single-column {
+  grid-template-columns: 1fr 0px 0fr;
+}
+
+.container.two-column {
+  grid-template-columns: 1fr 1px 1fr;
 }
 
 .left-panel {
   font-size: 1rem;
   padding: 20px;
+  transition: all 0.3 ease-in-out;
 }
 
 .divider {
@@ -44,7 +54,14 @@ body {
 .right-panel {
   font-size: 1rem;
   padding: 20px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.right-panel.hidden {
   opacity: 0;
+  visibility: hidden;
+  transition-delay: 0s, 0.3s; /* opacity immediate, visibility delayed */
 }
 
 h2 {
