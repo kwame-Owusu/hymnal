@@ -9,6 +9,7 @@
   --green-light: #a7c1a8;
   --beige: #d1d8be;
   --beige-light: #eeefe0;
+  --light-orange: #dfd0b8;
   --bg-color: #faf6e9;
 }
 body {
@@ -26,6 +27,7 @@ body {
   grid-template-columns: 1fr 2px 1fr;
   height: 100vh;
   overflow-y: auto;
+  text-align: center;
 }
 
 .left-panel {
@@ -65,7 +67,7 @@ p {
 }
 .incr-btn,
 .decr-btn {
-  border: solid 1px #333;
+  border: none;
   color: black;
   cursor: pointer;
   font-size: 1rem;
@@ -74,13 +76,13 @@ p {
   padding-left: 1.7rem;
   padding-right: 1.7rem;
   border-radius: 0.5rem;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease-in;
   font-weight: bold;
 }
 
 .incr-btn:hover,
 .decr-btn:hover {
-  background-color: #333;
+  background-color: var(--light-orange);
   color: white;
 }
 
@@ -100,7 +102,7 @@ p {
   width: 100%;
   padding: 16px 50px 16px 20px;
   border: 1px solid #e1e8ed;
-  border-radius: 25px;
+  border-radius: 0.8rem;
   font-size: 1rem;
   outline: none;
   transition: all 0.3s ease;
@@ -118,12 +120,12 @@ p {
   display: flex;
   align-items: center;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .checkbox-slide .slidemark {
   position: relative;
-  width: 40px;
+  width: 50px;
   height: 20px;
   margin-right: 12px;
   background: #ecf0f1;
@@ -151,11 +153,11 @@ p {
 }
 
 .checkbox-slide input:checked + .slidemark {
-  background: #f39c12;
+  background: var(--light-orange);
 }
 
 .checkbox-slide input:checked + .slidemark::after {
-  transform: translateX(20px);
+  transform: translateX(27px);
   color: #f39c12;
   background: #fff;
 }
