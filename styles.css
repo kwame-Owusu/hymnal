@@ -42,9 +42,16 @@ body {
 }
 
 .left-panel {
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 20px;
   transition: all 0.3 ease-in-out;
+  line-height: 1.6;
+}
+.left-panel p {
+  text-align: center;
+  background-color: var(--beige-light);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  font-weight: 500;
 }
 
 .divider {

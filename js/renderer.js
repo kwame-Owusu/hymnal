@@ -91,9 +91,11 @@ async function renderJsonData() {
 function renderHymn(hymns) {
   rightPanel.innerHTML = "";
   leftPanel.innerHTML = "";
+  let currVerseNum = 1;
   const hymnElement = document.createElement("p");
   hymns.english.verses.forEach((verse) => {
-    hymnElement.innerHTML += `${verse}<br><br>`;
+    hymnElement.innerHTML += `${currVerseNum} ${verse}<br><br>`;
+    currVerseNum++;
   });
   leftPanel.appendChild(hymnElement);
 }
