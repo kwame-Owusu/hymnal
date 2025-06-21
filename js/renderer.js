@@ -12,8 +12,8 @@ const container = document.querySelector(".container");
 const divider = document.querySelector(".divider");
 
 /**
- * Represents a book.
- * @param {number} factor - factor to increase or decrease by.
+ *
+ * @param {number} factor - factor to increase or decrease font size by.
  */
 function adjustFontSize(factor) {
   // Get current font size of one of the panels

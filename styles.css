@@ -103,6 +103,7 @@ p {
 .incr-btn:hover,
 .decr-btn:hover {
   background-color: var(--light-orange);
+  border: 1px solid var(--light-orange);
   color: white;
 }
 
