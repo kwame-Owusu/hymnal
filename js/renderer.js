@@ -84,9 +84,10 @@ if (sliderCheck) {
 async function renderJsonData() {
   try {
     const data = await window.electronAPI.loadJsonData("hymns.json");
-
+    const hymn = data.hymns[0];
+    console.log(hymn.id);
     // Render the data
-    renderHymn(data);
+    //renderHymn(data);
   } catch (error) {
     console.error("Failed to load data:", error);
     showErrorMessage("Failed to load data");
@@ -94,3 +95,5 @@ async function renderJsonData() {
 }
 
 function renderHymn() {}
+
+renderJsonData();
