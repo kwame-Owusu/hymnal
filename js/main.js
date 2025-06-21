@@ -1,11 +1,24 @@
 // Modules to control application life and create native browser window
-import { app, BrowserWindow } from "electron";
+import { app, BrowserWindow, ipcMain } from "electron";
 import path from "node:path";
+import fs from "fs";
 import { fileURLToPath } from "node:url";
 
 // Get __dirname equivalent in ES modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// Handle JSON file reading
+ipcMain.handle("load-json-data", async (event, filename) => {
+  try {
+    const filePath = path.join(__dirname, "data", filename);
+    const data = fs.readFileSync(filePath, "utf8");
+    return JSON.parse(data);
+  } catch (error) {
+    console.error("Error loading JSON:", error);
+    throw error;
+  }
+});
 
 function createWindow() {
   // Create the browser window.

@@ -6,3 +6,9 @@
  *
  * https://www.electronjs.org/docs/latest/tutorial/sandbox
  */
+
+const { contextBridge, ipcRenderer } = require("electron");
+
+contextBridge.exposeInMainWorld("electronAPI", {
+  loadJsonData: (filename) => ipcRenderer.invoke("load-json-data", filename),
+});

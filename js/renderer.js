@@ -45,7 +45,7 @@ decrBtn.addEventListener("click", () => {
 /*TODO:
 - Implement hymn data loading from json
 - Display sample hymn content to left and right panel
-- get value of checkbox slider and set opacity of right panel to 0 and resize the grid
+
 */
 
 const sliderCheck = document.querySelector(
@@ -79,3 +79,18 @@ toggleLayout();
 if (sliderCheck) {
   sliderCheck.addEventListener("change", toggleLayout);
 }
+
+// Load and render JSON data
+async function renderJsonData() {
+  try {
+    const data = await window.electronAPI.loadJsonData("hymns.json");
+
+    // Render the data
+    renderHymn(data);
+  } catch (error) {
+    console.error("Failed to load data:", error);
+    showErrorMessage("Failed to load data");
+  }
+}
+
+function renderHymn() {}
