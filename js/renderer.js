@@ -92,12 +92,22 @@ function renderHymn(hymns) {
   rightPanel.innerHTML = "";
   leftPanel.innerHTML = "";
   let currVerseNum = 1;
-  const hymnElement = document.createElement("p");
+  const engHymnElement = document.createElement("p");
+  const twiHymnElement = document.createElement("p");
   hymns.english.verses.forEach((verse) => {
-    hymnElement.innerHTML += `${currVerseNum} ${verse}<br><br>`;
+    engHymnElement.innerHTML += `${currVerseNum} ${verse}<br><br>`;
     currVerseNum++;
   });
-  leftPanel.appendChild(hymnElement);
+  leftPanel.appendChild(engHymnElement);
+
+  // twi section
+  currVerseNum = 1;
+  hymns.twi.verses.forEach((verse) => {
+    twiHymnElement.innerHTML += `${currVerseNum} ${verse}<br><br>`;
+    currVerseNum++;
+  });
+
+  rightPanel.appendChild(twiHymnElement);
 }
 
 renderJsonData();

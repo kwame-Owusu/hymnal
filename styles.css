@@ -53,16 +53,23 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Soft shadow */
   font-weight: 500;
 }
+.right-panel p {
+  text-align: center;
+  background-color: var(--beige-light);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  font-weight: 500;
+}
 
 .divider {
   background-color: #333;
 }
 
 .right-panel {
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 20px;
   opacity: 1;
   visibility: visible;
+  line-height: 1.6;
 }
 
 .right-panel.hidden {
