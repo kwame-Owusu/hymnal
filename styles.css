@@ -42,6 +42,9 @@ body {
 }
 
 .left-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 1.1rem;
   padding: 20px;
   transition: all 0.3 ease-in-out;

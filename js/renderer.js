@@ -74,7 +74,11 @@ if (sliderCheck) {
   sliderCheck.addEventListener("change", toggleLayout);
 }
 
-// Load and render JSON data
+//
+/**
+ * Load and render JSON data
+ * @param {JSON} hymns - .
+ */
 async function renderJsonData() {
   try {
     const data = await window.electronAPI.loadJsonData("hymns.json");
@@ -88,16 +92,28 @@ async function renderJsonData() {
   }
 }
 
+/**
+ * renders the hymns to left and right panels based on JSON data
+ * by creating new <p> elements and appending them to left panel and right parent
+ * @param {JSON} hymns - .
+ */
 function renderHymn(hymns) {
   rightPanel.innerHTML = "";
   leftPanel.innerHTML = "";
   let currVerseNum = 1;
+
+  const headingEng = document.createElement("h2");
+  const headingTwi = document.createElement("h2");
+  headingEng.innerHTML = "English";
+  headingTwi.innerHTML = "Twi";
+
   const engHymnElement = document.createElement("p");
   const twiHymnElement = document.createElement("p");
   hymns.english.verses.forEach((verse) => {
     engHymnElement.innerHTML += `${currVerseNum} ${verse}<br><br>`;
     currVerseNum++;
   });
+  leftPanel.appendChild(headingEng);
   leftPanel.appendChild(engHymnElement);
 
   // twi section
@@ -107,6 +123,7 @@ function renderHymn(hymns) {
     currVerseNum++;
   });
 
+  rightPanel.appendChild(headingTwi);
   rightPanel.appendChild(twiHymnElement);
 }
 
