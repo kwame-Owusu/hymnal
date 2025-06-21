@@ -26,7 +26,7 @@ body {
   margin-top: 50px;
   margin-left: 0.75rem;
   margin-right: 0.75rem;
-  grid-template-columns: 1fr 2px 1fr;
+  grid-template-columns: 1fr 1px 1fr;
   height: 100vh;
   overflow-y: auto;
   text-align: center;
@@ -69,15 +69,15 @@ p {
 }
 .incr-btn,
 .decr-btn {
-  border: none;
-  color: black;
+  border: 1px solid #333;
+  color: #333;
   cursor: pointer;
   font-size: 1rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   padding-left: 1.7rem;
   padding-right: 1.7rem;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   transition: all 0.2s ease-in;
   font-weight: bold;
 }
