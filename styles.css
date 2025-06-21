@@ -4,21 +4,33 @@
   box-sizing: border-box;
 }
 
+:root {
+  --green: #819a91;
+  --green-light: #a7c1a8;
+  --beige: #d1d8be;
+  --beige-light: #eeefe0;
+  --bg-color: #faf6e9;
+}
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: var(--bg-color);
 }
 
 .container {
+  border: 1px solid #333;
+  border-radius: 0.5rem;
   display: grid;
+  margin-top: 50px;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
   grid-template-columns: 1fr 2px 1fr;
   height: 100vh;
+  overflow-y: auto;
 }
 
 .left-panel {
-  font-size: 16px;
-  background-color: #f0f8ff;
+  font-size: 1rem;
   padding: 20px;
-  overflow-y: auto;
 }
 
 .divider {
@@ -26,9 +38,8 @@ body {
 }
 
 .right-panel {
-  background-color: #fff8f0;
+  font-size: 1rem;
   padding: 20px;
-  overflow-y: auto;
 }
 
 h2 {
@@ -71,4 +82,80 @@ p {
 .decr-btn:hover {
   background-color: #333;
   color: white;
+}
+
+/* top navigation section search box and slider */
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  gap: 1.5rem;
+}
+.search-bar {
+  max-width: 500px;
+}
+.search-bar input {
+  width: 100%;
+  padding: 16px 50px 16px 20px;
+  border: 1px solid #e1e8ed;
+  border-radius: 25px;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+  background: #fff;
+}
+
+/* Sliding Checkbox */
+
+/* Hide default checkboxes */
+.custom-checkbox input[type="checkbox"] {
+  opacity: 0;
+}
+.checkbox-slide {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.checkbox-slide .slidemark {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  margin-right: 12px;
+  background: #ecf0f1;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.checkbox-slide .slidemark::after {
+  content: "✓";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: transparent;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.checkbox-slide input:checked + .slidemark {
+  background: #f39c12;
+}
+
+.checkbox-slide input:checked + .slidemark::after {
+  transform: translateX(20px);
+  color: #f39c12;
+  background: #fff;
 }
