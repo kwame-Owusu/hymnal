@@ -42,12 +42,6 @@ decrBtn.addEventListener("click", () => {
   adjustFontSize(0.9);
 });
 
-/*TODO:
-- Implement hymn data loading from json
-- Display sample hymn content to left and right panel
-
-*/
-
 const sliderCheck = document.querySelector(
   '.checkbox-slide input[type="checkbox"]',
 );
@@ -84,16 +78,24 @@ if (sliderCheck) {
 async function renderJsonData() {
   try {
     const data = await window.electronAPI.loadJsonData("hymns.json");
-    const hymn = data.hymns[0];
-    console.log(hymn.id);
+    const hymnsData = data.hymns[0]; //hymns array
+    console.log(hymnsData);
     // Render the data
-    //renderHymn(data);
+    renderHymn(hymnsData);
   } catch (error) {
     console.error("Failed to load data:", error);
     showErrorMessage("Failed to load data");
   }
 }
 
-function renderHymn() {}
+function renderHymn(hymns) {
+  rightPanel.innerHTML = "";
+  leftPanel.innerHTML = "";
+  const hymnElement = document.createElement("p");
+  hymns.english.verses.forEach((verse) => {
+    hymnElement.innerHTML += `${verse}<br><br>`;
+  });
+  leftPanel.appendChild(hymnElement);
+}
 
 renderJsonData();

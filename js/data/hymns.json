@@ -28,6 +28,21 @@
         ],
         "chorus": "Optional Twi chorus"
       }
+    },
+
+    {
+      "id": 2,
+      "number": "002",
+      "english": {
+        "title": "How Great Thou Art",
+        "verses": ["O Lord my God, when I in awesome wonder..."],
+        "chorus": "Optional chorus text"
+      },
+      "twi": {
+        "title": "Wo Kese Dodo",
+        "verses": ["O Awurade me Nyankopɔn..."],
+        "chorus": "Optional Twi chorus"
+      }
     }
   ]
 }
