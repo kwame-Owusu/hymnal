@@ -26,7 +26,7 @@ body {
   margin-top: 50px;
   margin-left: 0.75rem;
   margin-right: 0.75rem;
-  grid-template-columns: 1fr 1px 1fr;
+  grid-template-columns: 1fr 0px 0fr;
   height: 100vh;
   overflow-y: auto;
   text-align: center;
@@ -44,6 +44,7 @@ body {
 .right-panel {
   font-size: 1rem;
   padding: 20px;
+  opacity: 0;
 }
 
 h2 {
