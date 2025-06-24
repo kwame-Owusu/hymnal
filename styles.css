@@ -6,6 +6,7 @@
 
 :root {
   --green: #819a91;
+  --error: #cd5656;
   --dark-bg-1: #222831;
   --dark-bg-2: #393e46;
   --green-light: #a7c1a8;
@@ -164,6 +165,7 @@ p {
 }
 
 /* top navigation section search box and slider */
+
 input::-webkit-search-cancel-button {
   -webkit-appearance: none;
   appearance: none;
@@ -186,9 +188,30 @@ input::-webkit-search-cancel-button {
   border: 1px solid #e1e8ed;
   border-radius: 0.8rem;
   font-size: 1rem;
-  outline: none;
   transition: all 0.3s ease;
   background: #fff;
+}
+
+/* Red border when error */
+.input-error {
+  border: 2px solid red !important;
+}
+
+/* Error message styling */
+#error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  transition: opacity 0.3s ease;
+}
+
+/* Hidden by default */
+.error-hidden {
+  visibility: hidden;
+}
+
+.error-visible {
+  visibility: visible;
 }
 
 /* Sliding Checkbox */

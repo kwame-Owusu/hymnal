@@ -157,6 +157,7 @@ function searching() {
  */
 function searchHymn(data) {
   const userSearch = document.getElementById("search-input");
+  const errorMessage = document.getElementById("error-message");
 
   userSearch.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
@@ -172,10 +173,36 @@ function searchHymn(data) {
       if (result.length > 0) {
         console.log("Found hymn:", result[0]);
         console.log(result[0].english.verses);
+        userSearch.classList.remove("input-error");
         // You can call your renderHymn function here if you want to display it
         renderHymn(result[0]);
+        userSearch.value = "";
+
+        // Reset error state if successful
+        userSearch.classList.remove("input-error");
+        errorMessage.classList.add("error-hidden");
+        errorMessage.classList.remove("error-visible");
+        errorMessage.textContent = "";
       } else {
-        console.log("Hymn not found");
+        userSearch.classList.add("input-error");
+        errorMessage.innerText = "Hymn not found. Please try again.";
+        errorMessage.classList.remove("error-hidden");
+
+        //Show red border
+        userSearch.classList.add("input-error");
+
+        //Show error message
+        errorMessage.textContent = "Hymn not found. Please try again.";
+        errorMessage.classList.remove("error-hidden");
+        errorMessage.classList.add("error-visible");
+
+        // Remove red border and error message after 2 seconds
+        setTimeout(() => {
+          userSearch.classList.remove("input-error");
+          errorMessage.classList.add("error-hidden");
+          errorMessage.classList.remove("error-visible");
+          errorMessage.textContent = "";
+        }, 2000);
       }
     }
   });
