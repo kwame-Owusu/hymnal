@@ -142,20 +142,45 @@ function renderHymn(hymns) {
   });
 }
 
+function searching() {
+  const userSearch = document.getElementById("search-input");
+  userSearch.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      console.log(userSearch.value);
+    }
+  });
+}
+
 /**
  * allows user to search through the search bar for a specific hymn
  * @param {} hymns - .
  */
-function searchHymn(data, searchTerm) {
-  const result = data.filter((hymn) => {
-    return (
-      hymn.number.toLowerCase() === searchTerm.toLowerCase() ||
-      hymn.english.title.toLowerCase() === searchTerm.toLowerCase()
-    );
+function searchHymn(data) {
+  const userSearch = document.getElementById("search-input");
+
+  userSearch.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      const searchTerm = userSearch.value.toLowerCase();
+
+      const result = data.filter((hymn) => {
+        return (
+          hymn.number.toLowerCase() === searchTerm ||
+          hymn.english.title.toLowerCase() === searchTerm
+        );
+      });
+
+      if (result.length > 0) {
+        console.log("Found hymn:", result[0]);
+        console.log(result[0].english.verses);
+        // You can call your renderHymn function here if you want to display it
+        //renderHymn(result[0]);
+      } else {
+        console.log("Hymn not found");
+      }
+    }
   });
-  return result;
 }
 
 const data = await renderJsonData();
-const search = searchHymn(data, "1");
+const search = searchHymn(data);
 console.log(search[0].english.verses);
