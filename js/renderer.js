@@ -101,8 +101,8 @@ function renderHymn(hymns) {
 
   const headingEng = document.createElement("h2");
   const headingTwi = document.createElement("h2");
-  headingEng.innerHTML = "English";
-  headingTwi.innerHTML = "Twi";
+  headingEng.innerHTML = `${hymns.english.title}`;
+  headingTwi.innerHTML = `${hymns.twi.title}`;
 
   leftPanel.appendChild(headingEng);
   // Loop through the English verses and create separate <p> elements
