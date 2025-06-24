@@ -72,7 +72,6 @@ if (sliderCheck) {
   sliderCheck.addEventListener("change", toggleLayout);
 }
 
-//
 /**
  * Load and render JSON data
  * @param {JSON} hymns - .
@@ -137,23 +136,13 @@ function renderHymn(hymns) {
       chorus.classList.add("chorus");
       rightPanel.appendChild(chorus);
     }
-
     currVerseNum++;
-  });
-}
-
-function searching() {
-  const userSearch = document.getElementById("search-input");
-  userSearch.addEventListener("keydown", (event) => {
-    if (event.key === "Enter") {
-      console.log(userSearch.value);
-    }
   });
 }
 
 /**
  * allows user to search through the search bar for a specific hymn
- * @param {} hymns - .
+ * @param {Array} data .
  */
 function searchHymn(data) {
   const userSearch = document.getElementById("search-input");
