@@ -58,11 +58,9 @@ function toggleLayout() {
   if (sliderCheck.checked) {
     container.className = "container two-column";
     rightPanel.classList.remove("hidden");
-    console.log("Layout: Two columns");
   } else {
     container.className = "container single-column";
     rightPanel.classList.add("hidden");
-    console.log("Layout: One column");
   }
 }
 
@@ -82,10 +80,10 @@ if (sliderCheck) {
 async function renderJsonData() {
   try {
     const data = await window.electronAPI.loadJsonData("hymns.json");
-    const hymnsData = data.hymns[0]; //hymns array
-    console.log(hymnsData);
-    // Render the data
-    renderHymn(hymnsData);
+    const hymns = data.hymns;
+    // Render thedata
+    renderHymn(hymns[0]);
+    return hymns;
   } catch (error) {
     console.error("Failed to load data:", error);
     showErrorMessage("Failed to load data");
@@ -148,13 +146,16 @@ function renderHymn(hymns) {
  * allows user to search through the search bar for a specific hymn
  * @param {} hymns - .
  */
-function searchHymn() {
-  const searchInput = document.getElementById("search-input");
-  searchInput.addEventListener("keydown", (event) => {
-    if (event.key === "Enter") {
-      console.log("Search value on Enter:", searchInput.value);
-    }
+function searchHymn(data, searchTerm) {
+  const result = data.filter((hymn) => {
+    return (
+      hymn.number.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      hymn.english.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
   });
+  return result;
 }
-searchHymn();
-renderJsonData();
+
+const data = await renderJsonData();
+const search = searchHymn(data, "2");
+console.log(search);
