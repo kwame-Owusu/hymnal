@@ -149,13 +149,13 @@ function renderHymn(hymns) {
 function searchHymn(data, searchTerm) {
   const result = data.filter((hymn) => {
     return (
-      hymn.number.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      hymn.english.title.toLowerCase().includes(searchTerm.toLowerCase())
+      hymn.number.toLowerCase() === searchTerm.toLowerCase() ||
+      hymn.english.title.toLowerCase() === searchTerm.toLowerCase()
     );
   });
   return result;
 }
 
 const data = await renderJsonData();
-const search = searchHymn(data, "2");
-console.log(search);
+const search = searchHymn(data, "1");
+console.log(search[0].english.verses);
