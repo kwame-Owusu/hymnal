@@ -173,7 +173,7 @@ function searchHymn(data) {
         console.log("Found hymn:", result[0]);
         console.log(result[0].english.verses);
         // You can call your renderHymn function here if you want to display it
-        //renderHymn(result[0]);
+        renderHymn(result[0]);
       } else {
         console.log("Hymn not found");
       }
@@ -182,5 +182,4 @@ function searchHymn(data) {
 }
 
 const data = await renderJsonData();
-const search = searchHymn(data);
-console.log(search[0].english.verses);
+searchHymn(data);
