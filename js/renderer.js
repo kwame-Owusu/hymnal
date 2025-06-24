@@ -144,4 +144,17 @@ function renderHymn(hymns) {
   });
 }
 
+/**
+ * allows user to search through the search bar for a specific hymn
+ * @param {} hymns - .
+ */
+function searchHymn() {
+  const searchInput = document.getElementById("search-input");
+  searchInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      console.log("Search value on Enter:", searchInput.value);
+    }
+  });
+}
+searchHymn();
 renderJsonData();

@@ -9,18 +9,18 @@
   --dark-bg-1: #222831;
   --dark-bg-2: #393e46;
   --green-light: #a7c1a8;
+  --brown-light: #a16d28;
   --beige: #d1d8be;
   --beige-light: #eeefe0;
   --light-orange: #dfd0b8;
   --bg-color: #faf6e9;
 }
 body {
-  font-family: "Open Sans", sans-serif;
-  background-color: var(--bg-color);
+  font-family: "Georgia", serif;
+  background: #f5f5f5;
 }
 
 .container {
-  border: 1px solid #333;
   border-radius: 0.5rem;
   display: grid;
   margin-top: 50px;
@@ -31,14 +31,41 @@ body {
   overflow-y: auto;
   text-align: center;
   transition: grid-template-columns 0.3s ease-in-out;
+  background: linear-gradient(to bottom, #f7f1e3, #e8dcc6);
+}
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    radial-gradient(
+      circle at 50% 20%,
+      rgba(180, 151, 90, 0.1) 20px,
+      transparent 21px
+    ),
+    radial-gradient(
+      circle at 20% 60%,
+      rgba(180, 151, 90, 0.08) 15px,
+      transparent 16px
+    ),
+    radial-gradient(
+      circle at 80% 80%,
+      rgba(180, 151, 90, 0.12) 25px,
+      transparent 26px
+    );
+  pointer-events: none;
+  z-index: 1;
 }
 
 .container.single-column {
-  grid-template-columns: 1fr 0px 0fr;
+  grid-template-columns: 1fr 0fr;
 }
 
 .container.two-column {
-  grid-template-columns: 1fr 1px 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .left-panel {
@@ -50,25 +77,29 @@ body {
   transition: all 0.3 ease-in-out;
   line-height: 1.6;
 }
-.left-panel p {
-  text-align: center;
-  font-weight: 500;
-}
+.left-panel p,
 .right-panel p {
+  font-style: italic;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  color: #5d4e37;
   text-align: center;
   font-weight: 500;
+  z-index: 2;
+}
+.left-panel h2,
+.right-panel h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  color: #5d4e37;
 }
 .chorus {
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
-  background-color: var(--beige-light);
+  background-color: var(--light-orange);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Soft shadow */
   font-weight: bold;
-}
-
-.divider {
-  background-color: #333;
 }
 
 .right-panel {
@@ -88,6 +119,7 @@ body {
   transition-delay: 0s, 0.3s; /* opacity immediate, visibility delayed */
 }
 
+h1,
 h2 {
   color: #333;
   margin-bottom: 15px;
@@ -132,6 +164,11 @@ p {
 }
 
 /* top navigation section search box and slider */
+input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
 .top-nav {
   display: flex;
   flex-direction: row;
