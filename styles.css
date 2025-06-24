@@ -45,22 +45,26 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   padding: 20px;
   transition: all 0.3 ease-in-out;
   line-height: 1.6;
 }
 .left-panel p {
   text-align: center;
-  background-color: var(--beige-light);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Soft shadow */
   font-weight: 500;
 }
 .right-panel p {
   text-align: center;
+  font-weight: 500;
+}
+.chorus {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
   background-color: var(--beige-light);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Soft shadow */
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .divider {
@@ -68,7 +72,10 @@ body {
 }
 
 .right-panel {
-  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.4rem;
   padding: 20px;
   opacity: 1;
   visibility: visible;

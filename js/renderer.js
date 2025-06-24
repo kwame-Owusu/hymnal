@@ -107,24 +107,41 @@ function renderHymn(hymns) {
   headingEng.innerHTML = "English";
   headingTwi.innerHTML = "Twi";
 
-  const engHymnElement = document.createElement("p");
-  const twiHymnElement = document.createElement("p");
-  hymns.english.verses.forEach((verse) => {
-    engHymnElement.innerHTML += `${currVerseNum} ${verse}<br><br>`;
-    currVerseNum++;
-  });
   leftPanel.appendChild(headingEng);
-  leftPanel.appendChild(engHymnElement);
+  // Loop through the English verses and create separate <p> elements
+  hymns.english.verses.forEach((verse, index) => {
+    const verseElement = document.createElement("p");
+    verseElement.innerHTML = `${currVerseNum} ${verse}`;
+    leftPanel.appendChild(verseElement);
 
-  // twi section
-  currVerseNum = 1;
-  hymns.twi.verses.forEach((verse) => {
-    twiHymnElement.innerHTML += `${currVerseNum} ${verse}<br><br>`;
+    // Insert chorus after the first verse
+    if (index === 0) {
+      const chorus = document.createElement("p");
+      chorus.innerHTML = `${hymns.english.chorus}`;
+      chorus.classList.add("chorus");
+      leftPanel.appendChild(chorus);
+    }
+
     currVerseNum++;
   });
 
+  currVerseNum = 1;
   rightPanel.appendChild(headingTwi);
-  rightPanel.appendChild(twiHymnElement);
+
+  hymns.twi.verses.forEach((verse, index) => {
+    const verseElement = document.createElement("p");
+    verseElement.innerHTML = `${currVerseNum} ${verse}`;
+    rightPanel.appendChild(verseElement);
+
+    if (index === 0) {
+      const chorus = document.createElement("p");
+      chorus.innerHTML = `${hymns.twi.chorus}`;
+      chorus.classList.add("chorus");
+      rightPanel.appendChild(chorus);
+    }
+
+    currVerseNum++;
+  });
 }
 
 renderJsonData();
