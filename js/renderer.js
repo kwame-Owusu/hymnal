@@ -80,7 +80,7 @@ async function renderJsonData() {
   try {
     const data = await window.electronAPI.loadJsonData("hymns.json");
     const hymns = data.hymns;
-    // Render thedata
+    // Render the data
     renderHymn(hymns[0]);
     return hymns;
   } catch (error) {

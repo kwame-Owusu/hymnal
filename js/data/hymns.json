@@ -46,6 +46,53 @@
         "verses": ["O Awurade me Nyankopɔn..."],
         "chorus": "Optional Twi chorus"
       }
+    },
+    {
+      "id": 3,
+      "number": "3",
+      "english": {
+        "title": "Upon The First Day Of The Week",
+        "verses": [
+          "Upon the first day of the week, our savior gave forth from the grave; he died, was buried, then arose, to reign, to triumph and to save!",
+          "Upon the first day of the week, disciples met to break the bread, and drink the cup in memory of him whose blood for us was shed!",
+          "Upon the first day of the week, let each of us lay by in store, as blessed and prospered by the Lord, the King of kings whom we adore!",
+          "Upon the day “beloved” John, saw Christ, and heard his trumpet voice; we, too, in spirit worship him, with prayer and song our hearts rejoice!"
+        ],
+        "chorus": "Though others may forsake the Lord, yet we are here thy truth to seek; thy holy presence comforts us, upon the first day of the week."
+      },
+      "twi": {
+        "title": "Naawotwe Da A Edi Kan",
+        "verses": [
+          "Naawotwe da a edi kan no m Yε’Ayenkwa sore fi nna mu Owui, wosiee no, w’asore Se onni hene na onnye yen nkwa. ",
+          "Naawotwe da a edi kan no m Asuafo hyiae bubu abodoo Wonom nkaeε kuruwa ano De kae deε okyii ne mogya mmaeε",
+          "Naawotwe da a edi kan no m Moma yεn nsiesie yεn ho sie Na yεnfa deε ahene mu hene De adom yεn no mu bi merε no."
+        ],
+        "chorus": "Sε binom bεpow Awurade Yεn deε yε pε wo nokware no Wo ka yεn ho kyekye yεn werε Naawotwe da a edi kan no m"
+      }
+    },
+    {
+      "id": 4,
+      "number": "151",
+      "english": {
+        "title": "Sun Of My Soul",
+        "verses": [
+          "Sun of my soul, thou Saviour dear, It is not night if thou be near; O may no earth-born cloud arise To hide thee from thy servant’s eyes",
+          "When the soft dews of kindly sleep My wearied eye lids gently steep, Be my last tho’t, how sweet to rest, Forever on my Saviour’s breast.",
+          "Abide with me from morn till eve, For without thee I cannot live; Abide with me when night is nigh, For without thee I dare not die.",
+          "Come near and bless us when we wake, Ere thro’ the world our way we take; Abide with me when night is nigh, For without thee I dare not die."
+        ],
+        "chorus": ""
+      },
+      "twi": {
+        "title": "Me Kra Awia",
+        "verses": [
+          "Me kra awia m’Agyenkwa pa Wo bεn me a ade nsa me da Mma sum bi mfi asase yi so Nhinta wo mfi w’akoa ani so.",
+          "Sε εnna de ne bosuo n o Ka mani brεfoo yi gu soo Ma mendwene dε a εbεyε Sε mεhome m’Agyenkwa bom daa.",
+          "Wo ne me ntena adekyee mu Wonni me nkyεn a mentumi ntena ase Ade resa a wo ne me ntena Wo ka me ho a mensuro wuo.",
+          "Sε yεnyane a behyira yεn Ansa na yε’afa yεn akwan so Kosi sε odo kεse no De yεbepue osoro nohoaa do"
+        ],
+        "chorus": ""
+      }
     }
   ]
 }
