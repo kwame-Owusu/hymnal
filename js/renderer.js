@@ -89,6 +89,15 @@ async function renderJsonData() {
   }
 }
 
+function capitalize(string) {
+  string = string.toLowerCase();
+  const splitted = string.split(" ");
+  for (let i = 0; i < splitted.length; i++) {
+    splitted[i] = splitted[i].charAt(0).toUpperCase() + splitted[i].slice(1);
+  }
+  return splitted.join(" ");
+}
+
 /**
  * renders the hymns to left and right panels based on JSON data
  * by creating new <p> elements and appending them to left panel and right parent
@@ -101,8 +110,8 @@ function renderHymn(hymns) {
 
   const headingEng = document.createElement("h2");
   const headingTwi = document.createElement("h2");
-  headingEng.innerHTML = `${hymns.english.title}`;
-  headingTwi.innerHTML = `${hymns.twi.title}`;
+  headingEng.innerHTML = `${capitalize(hymns.english.title)}`;
+  headingTwi.innerHTML = `${capitalize(hymns.twi.title)}`;
 
   leftPanel.appendChild(headingEng);
   // Loop through the English verses and create separate <p> elements
@@ -199,3 +208,4 @@ function searchHymn(data) {
 
 const data = await renderJsonData();
 searchHymn(data);
+console.log(`${capitalize("hello world")}`);
