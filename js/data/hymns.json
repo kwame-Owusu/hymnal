@@ -96,43 +96,73 @@
     },
     {
       "id": 5,
-      "number": "",
+      "number": "656",
       "english": {
-        "title": "",
-        "verses": [],
+        "title": "BLEST BE THE TIE",
+        "verses": [
+          "Blest be the tie that binds Our hearts in Christian love The fellowship of kindred minds Is like to that above.",
+          "Before our Father’s throne We pour our ardent prayers; Our fears, our hopes, our aims are one Our comforts and our cares.",
+          "We share our mutual woes, Our mutual burdens bear; And often for each other flows The sympathizing tear.",
+          "When we asunder part, It gives us inward pain; But we shall still be joined in heart, And hope to meet again."
+        ],
         "chorus": ""
       },
       "twi": {
-        "title": "",
-        "verses": [],
+        "title": "HYIRA NKA HOMA",
+        "verses": [
+          "Hyira nka homa a εka Yε akoma bom Kristo dom Ayonkofa wo adwenen koro m Te sε osoro de no.",
+          "Yε hwiee yεn mpae denden Gu Agya ahenwa no anim Yεn suro, yεbotae yε koro Yεn awerεkyekye ni yε hia.",
+          "Yε kyε amaneε koro no Yε soa yεn adesoa koro no Na yε taa nya ayamhyehye Ma yεn nuanom nyinaa.",
+          "Sε yε mu hwete a Yedi yea wo yεn mu pii Nanso yε bom’ wo akoma mu Na yenim sε yebehyia bio."
+        ],
         "chorus": ""
       }
     },
     {
       "id": 6,
-      "number": "",
+      "number": "2",
       "english": {
-        "title": "",
-        "verses": [],
-        "chorus": ""
+        "title": "WE’RE MARCHING TO ZION",
+        "verses": [
+          "Come, we that love the Lord, And let our joys be known, Join in a song with sweet accord, Join in a song with sweet accord, And thus surround the throne And thus surround the throne.",
+          "Let those refuse to sing Who never knew our God; But children of the heavenly King, But children of the Heavenly King, May speak their joys abroad, May speak their joys abroad.",
+          "The hill of Zion yields A thousand sacred sweets, Before we reach the heavenly fields, Before we reach the heav’nly fields Or walk the golden streets, Or walk the golden streets.",
+          "Then let our songs abound, And ev’ry tear be dry; We’re marching thru Immanuel’s ground, We’re marching thru Immanuel’s ground, To fairer worlds on high, to fairer worlds on high."
+        ],
+        "chorus": "We’re marching to Zion, Beautiful, beautiful Zion; We’re marching on to Zion, marching upward to Zion, The beautiful city of God. Zion, Zion."
       },
       "twi": {
-        "title": "",
-        "verses": [],
-        "chorus": ""
+        "title": "YERETU SA AKO ZION",
+        "verses": [
+          "Mo a modo Awurade Mommra, mo ma mo ani ngye Monso mu nto nnwom a εyε dε Montwa ahennwa n’ho nhyia.",
+          "Won a wonnim Nyame Worento nnwom yi bi Na osoro hene no mma no deε Na osoro hene no mma no deε Wobεka won anigye akyerε aman Wobεka akyerε aman.",
+          "Zion kokoo kronkron no Εso nnipa mpempem Sε yeduru so asase so Sε yeduru soro asase so Anaa sikea morono no so Sika norono no so.",
+          "Momma ndwom no nko so Na nisuo nyinaa new Yεnam Emmanuel sase so Yεnam Emmanuel sase so Ako bea fεfε bi wo soro Bea fεfε bi wo soro."
+        ],
+        "chorus": "Zion fεfε no Yεretu sa ado Zion Nyame kuro fεfε."
       }
     },
     {
       "id": 7,
-      "number": "",
+      "number": "260",
       "english": {
-        "title": "",
-        "verses": [],
+        "title": "LOVE DIVINE",
+        "verses": [
+          "Love divine, all love excelling, Joy of heav’n, to earth come down Fix in us Thy humble dwelling All Thy faithful mercies crown Jesus, Thou art all compassion, Pure, unbounded love Thou art; Visit us with Thy salvation, Enter ev’ry trembling heart.",
+          "Breath, o breathe Thy loving Spirit Into ev’ry troubled breast; May we all in Thee inherit May we find the promised rest; Take away the love of sinning, Take our load of guilt away; End the work of Thy beginning, Bring us to eternal day.",
+          "Come, almighty to deliver, May we all Thy life receive; Suddenly return, and never, Never more Thy temples leave; Thee we would be always blessing, Serve Thee as Thy hosts above Pray, and praise Thee, without ceasing, Glory in Thy perfect love.",
+          "Finish then Thy new creation, Pure, unspotted, may we be; May we see our whole salvation Perfectly secured by Thee; Changed from glory into glory, Till in heav’n we take our place, Till we cast our crowns before Thee, Lost in wonder, love and praise."
+        ],
         "chorus": ""
       },
       "twi": {
-        "title": "",
-        "verses": [],
+        "title": "ODO KRONKRON",
+        "verses": [
+          "Odo kronkron εkyεn ‘do biara Soro anigye aba fam ha Fa yεn mu yε wo tenabea Ma wo ahummobo nni mu Yesu wo yε awerεkyekye Wo yε do a enni ano Fa wo nkwagye no bεsra yεn Bεwura koma biara mu.",
+          "Koma biara a abrε no Home wo do honhom gu mu Ma yεn nya adedie wo mu Ne ahomegye a woahyε ho bo n’ Yi bone ho do fi yεn mu Ne yεn afodi adesoa no Wie adwuma a woahyε ase no Fa yεn ko daa nkwa no mu.",
+          "Tumfoo Agya bra bεgye yεn Ma yεn nsa nka wo nkwa no San bra na bεtena yεn mu Ngya wo ntomadan yi bio Wo na yεbεhyira wo daa daa Na yεasom wo sεsprp dom no Yε de mpaebo ne ayεyi a Εntwa da atena wo do mu.",
+          "Afei wie woabode foforo Te yεn ho fi nkekae nyinaa ho Ma yε nhu nkwagye kεse a Wo anya ama yεn no Sesa yεn ko wo anuonyam mu Ma soro nyε yε tenabea Ma yεnto yεade ngu w’anim Wo do ne ayεyi mu do."
+        ],
         "chorus": ""
       }
     },
@@ -140,8 +170,15 @@
       "id": 8,
       "number": "",
       "english": {
-        "title": "",
-        "verses": [],
+        "title": "BREBRE NA EYE",
+        "verses": [
+          "Brɛbrɛ na εyε Okristoni. Fa ntoboase yε woade nyinaa Nyame na ose brɛbrɛ na εyε Okristoni ee brɛbrɛ na εyε.",
+          "Mma wobo mfu Okristoni Fa ntoboase ye wade nyinaa Nyame na ose mma wobo mfu Okristoni ee mma wobo mfu.",
+          "Kae mmra nsεm no Okristoni Na bo mmoden di so daa nyinaa Nyame na ose Okristoni ee Sε wodo me a di me mmra so.",
+          "Gyae kokonsa na ka nokorε Gyae nsekubo, gyae akayo Nyame na ose gyae nkonkonsa Okristoni ee gyae nkonkonsa.",
+          "Ma w’aniso na hwε soro ho Ma kae hu sε Onyame nnae Bone a yεyε ohu ne nyinaa Okristoni ee di asempa.",
+          "Enna reko εnna reba Na kae hu sε wo nna rehi Osoro ho wo wo adonta bi bu Okristoni ee obra twa wu."
+        ],
         "chorus": ""
       },
       "twi": {
@@ -152,25 +189,36 @@
     },
     {
       "id": 9,
-      "number": "",
+      "number": "352",
       "english": {
-        "title": "",
-        "verses": [],
-        "chorus": ""
+        "title": "I'LL BE LISTENING",
+        "verses": [
+          "When the Savior calls I will answer, When He calls for me I will hear; When the Savior calls I will answer, I’ll be somewhere list’ning for my name.",
+          "If my heart is right when He calls me, If my heart is right I will hear; If my heart is right when He calls me, I’ll be somewhere list’ning for my name.",
+          "If my robe is white when He calls me, If my robe is white I will hear; If my robe is white when He calls me, I’ll be somewhere list’ning for my name."
+        ],
+        "chorus": "I’ll be somewhere list’ning, I’ll be somewhere list’ning I’ll be somewhere list’ning for my name Yes, for my name; I’ll be somewhere list’ning, I’ll be somewhere list’ning I’ll be somewhere list’nin for my name."
       },
       "twi": {
-        "title": "",
-        "verses": [],
-        "chorus": ""
+        "title": "MεTIE",
+        "verses": [
+          "Sε Agyenkwa no frε a mεgye so Sε ofrε me a mεte ne nne Sε Agyenkwa no fε a mεgye so Mεgyina baabi na m’atie me din.",
+          "Sε makoma tene na ofrε me Sε makoma tene a mεte ne nne Sε makoma tene na ofrε me Mεgyina baabi na matie me din.",
+          "Sε matade hyerεn na ofrε me Sε matade hyerεn a mε ten e nne Sε matade hyerε na ofrε me Mεgyina baabi na matie me din."
+        ],
+        "chorus": "Mεgyina baabi matie Mεgyina baabi matie Mεgyina baabi na matie me din."
       }
     },
     {
       "id": 10,
       "number": "",
       "english": {
-        "title": "",
-        "verses": [],
-        "chorus": ""
+        "title": "O KA ASEMPA NO",
+        "verses": [
+          "O ka asεmpa no Baabiara nnipa te Baabiara nnipa ho asεm Ne ammaneεwo Ma Kristoni beara nka anigye nsεm yi Yεn Wura, yε awua mu Wura.",
+          "Monhwε ahene mu Hene Ayaresa wo ne nsam Na ode nkwagye Brε akra a woayera Ma enkunim nnwom no Ngyegye ebun no mu."
+        ],
+        "chorus": "Oyε Awura mu Awurade Asεm Kronkron a εte ase Ne din yε dε kyεn so Ne pε ma nkwagye O ka asεmpa no Baabiara nnipa te Yεn Wua, yε ahene mu Hene."
       },
       "twi": {
         "title": "",
@@ -180,30 +228,50 @@
     },
     {
       "id": 11,
-      "number": "",
+      "number": "473",
       "english": {
-        "title": "",
-        "verses": [],
-        "chorus": ""
+        "title": "FURTHER ALONG",
+        "verses": [
+          "Tempted and tried we’re oft made to wonder Why it should be thus all the day long, While there are others living about us, Never molested tho in the wrong.",
+          "When death has come and taken our loved ones, It leaves our home so lonely and drear; Then do we wonder why others prosper, Living so wicked year after year.",
+          "Faithful till death said our loving Master, A few more days to labor and wait; Toils of the road will then seem as nothing, As we sweep thru the beautiful gate.",
+          "When we see Jesus coming in glory, When He comes from His home in the sky; Then we shall meet Him in that bright mansion, We’ll understand it all by and by."
+        ],
+        "chorus": "Farther along we’ll know all about it, Farther along we’ll understand why; Cheer up, my brother, live in the sunshine, We’ll understand it all by and by."
       },
       "twi": {
-        "title": "",
-        "verses": [],
-        "chorus": ""
+        "title": "WO ANIM HO",
+        "verses": [
+          "Sohwε ne haw taa gya yε’adwendwen sε Adεn na εwo sε εba saa mmerε nyinaa Berε a εbinom atwa yεn ho ahyia Wo yε bone nso haw nni won so.",
+          "Sε owu ba bεfa yε’adofo ko Egya awerεho ne suro ne ye’afie mu Na εma yε dwene won a asi won yie ho So wote bone mu mmerε nyinaa.",
+          "Yεn Wura no si di nokware ko wuo mu Yε adwuma twεn nna kakra yi mu Na yεrennu okwan mu suro no.",
+          "Sε yεhu Yesu sε oba n’anuonyam Sε ofi ne soro fie no mu ba a Yεbehyia no wo fie hyεnhyεn no mu εnkyε bi yεbεte ne nyinaa ase."
+        ],
+        "chorus": "Anim ho ye bεhu bribiara Anim ho yεbεte ne nyinaa ase Ma w’ani nnye me nua, ka wo ho hye Enkyε bi yεbεte ne nyinaa ase."
       }
     },
     {
       "id": 12,
-      "number": "",
+      "number": "395",
       "english": {
-        "title": "",
-        "verses": [],
-        "chorus": ""
+        "title": "BEULAH LAND",
+        "verses": [
+          "I’ll reach the land of corn and wine, And all its riches freely mine; There shines undimmed one blissful day, For all my night will pass away.",
+          "The Saviour comes and walks with me, And sweet communion here have we; He gently leads me by the hand, For this is heaven’s border land.",
+          "A sweet perfume upon the breeze, Is borne from ever vernal tree, And flow’rs that never fading grow, Where streams of life forever flow.",
+          "The zephyrs seem to float to me, Sweet sounds of heaven’s melody, As angels with the white robed throng, Join in the sweet redemption song."
+        ],
+        "chorus": "O Beulah land, sweet Beulah land As on thy highest mount I stand, I look away across the sea Where mansions are prepared for me, And view the shining glory shore, My heav’n, my home forever more."
       },
       "twi": {
-        "title": "",
-        "verses": [],
-        "chorus": ""
+        "title": "BEULAH MAN",
+        "verses": [
+          "Medu nnepa asase so Eho ade nyinaa bεyε me de Na εho de ade nsa da Na mesum nyinaa bεtwam ako.",
+          "Agyenkwa no ne me nante Yεnya ayonkofa dεεdε ha Oso me nsa n’odi manim Fisε ha yε soro hyeε so.",
+          "Duhwam bi wo mframa no mu Efi nnua a εtease daa so Nhwiren a won ahoofε mpa da Ne εnkwa nsuo sen daa nyinaa.",
+          "Nnwomto dεεdε reba me nkyεn Osoro nnwm a εyε dε no Abofo hyε ntade fitaa Bom to nkwagye dwom dεεdε."
+        ],
+        "chorus": "O Beulah man, oman fεεfε Berε a megyina wo mepo so Mahwε εpo no agya ho Bea a woasiesie adan ama me Mεhu asuogya εhyerε ho Me soro ne me fie afeboo."
       }
     },
     {

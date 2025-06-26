@@ -164,7 +164,8 @@ function searchHymn(data) {
       const result = data.filter((hymn) => {
         return (
           hymn.number.toLowerCase() === searchTerm ||
-          hymn.english.title.toLowerCase() === searchTerm
+          hymn.english.title.toLowerCase() === searchTerm ||
+          hymn.twi.title.toLowerCase() === searchTerm
         );
       });
 
