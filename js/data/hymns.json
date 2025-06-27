@@ -35,7 +35,7 @@
 
     {
       "id": 2,
-      "number": "2",
+      "number": "00",
       "english": {
         "title": "How Great Thou Art",
         "verses": ["O Lord my God, when I in awesome wonder..."],
@@ -129,7 +129,7 @@
           "The hill of Zion yields A thousand sacred sweets, Before we reach the heavenly fields, Before we reach the heav’nly fields Or walk the golden streets, Or walk the golden streets.",
           "Then let our songs abound, And ev’ry tear be dry; We’re marching thru Immanuel’s ground, We’re marching thru Immanuel’s ground, To fairer worlds on high, to fairer worlds on high."
         ],
-        "chorus": "We’re marching to Zion, Beautiful, beautiful Zion; We’re marching on to Zion, marching upward to Zion, The beautiful city of God. Zion, Zion."
+        "chorus": "We’re marching to Zion, Beautiful, beautiful Zion; We’re marching upward to Zion, marching upward to Zion, The beautiful city of God. Zion, Zion."
       },
       "twi": {
         "title": "YERETU SA AKO ZION",
