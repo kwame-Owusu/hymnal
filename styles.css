@@ -27,7 +27,7 @@ body {
   margin-top: 50px;
   margin-left: 0.75rem;
   margin-right: 0.75rem;
-  grid-template-columns: 1fr 0px 0fr;
+  grid-template-columns: 1fr 0px;
   height: 100vh;
   overflow-y: auto;
   text-align: center;
@@ -62,7 +62,8 @@ body {
 }
 
 .container.single-column {
-  grid-template-columns: 1fr 0fr;
+  grid-template-columns: 1fr 0px;
+  justify-items: center;
 }
 
 .container.two-column {
@@ -75,7 +76,7 @@ body {
   align-items: center;
   font-size: 1.4rem;
   padding: 20px;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
   line-height: 1.6;
 }
 .left-panel p,
@@ -113,6 +114,7 @@ body {
   opacity: 1;
   visibility: visible;
   line-height: 1.6;
+  transition: all 0.3s ease-in-out;
 }
 
 .right-panel.hidden {
