@@ -125,6 +125,9 @@ function renderHymn(hymns) {
       const chorus = document.createElement("p");
       chorus.innerHTML = `${hymns.english.chorus}`;
       chorus.classList.add("chorus");
+      if (hymns.english.chorus.length == 0) {
+        chorus.classList.add("not-exist");
+      }
       leftPanel.appendChild(chorus);
     }
 
@@ -143,6 +146,9 @@ function renderHymn(hymns) {
       const chorus = document.createElement("p");
       chorus.innerHTML = `${hymns.twi.chorus}`;
       chorus.classList.add("chorus");
+      if (hymns.twi.chorus.length == 0) {
+        chorus.classList.add("not-exist");
+      }
       rightPanel.appendChild(chorus);
     }
     currVerseNum++;
