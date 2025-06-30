@@ -7,7 +7,7 @@
   "hymns": [
     {
       "id": 1,
-      "number": "1",
+      "number": "257",
       "english": {
         "title": "Amazing Grace",
         "verses": [
@@ -30,21 +30,6 @@
           "Bere a yɛaka mfe mpempem,\nA yɛn ani tew te sɛ owia,\nYebetumi asom Nyame ayeyi no daa,\nSɛnea yɛyɛe fi kan no ara."
         ],
         "chorus": ""
-      }
-    },
-
-    {
-      "id": 2,
-      "number": "00",
-      "english": {
-        "title": "How Great Thou Art",
-        "verses": ["O Lord my God, when I in awesome wonder..."],
-        "chorus": "Optional chorus text"
-      },
-      "twi": {
-        "title": "Wo Kese Dodo",
-        "verses": ["O Awurade me Nyankopɔn..."],
-        "chorus": "Optional Twi chorus"
       }
     },
     {
@@ -946,6 +931,208 @@
           "Ma wo dom kεseε no Nhyεme koma den Na menyε nnam Sε wo wui maa me no Ao ma me nso me dэ Nyε denen ma wo Na εnnan da.",
           "Menam bra sum mu yi Yea atwa me ho yi Kyerε me kwan Ma sum nnan adekyeeε Na popa me nnusuo Na mma menyura Mfiri wo nkyεn.",
           "Sε эbra yi twa mu Na owuo asuten Bεworo me so a M’Agyenkwa Dεεfoэ pa Yi me suro ne akyennye Fa me dra a woagye no n’ Kэ soro fie sэnn."
+        ],
+        "chorus": ""
+      }
+    },
+    {
+      "id": 47,
+      "number": "160",
+      "english": {
+        "title": "THERE IS A FOUNTAIN",
+        "verses": [
+          "There is a fountain filled with blood Drawn from Immanuel’s veins; And sinners, plunged beneath that flood, Lose all their guilty stains; Lose all their guilty stains; lose all their guilty stains; And sinners, plunged beneath that flood, Lose all their guilty stains.",
+          "Dear dying Lamb, thy precious blood Shall never lose its pow’r, Till all the ransomed church of God Be saved, to sin no more; be saved to sin no more Till all the ransomed churches God Be saved, to sin no more.",
+          "E’er since, by faith I saw the stream Thy flowing wounds supply, Redeeming love has been my theme, And shall be till I die; and shall be till I die, Redeeming love has been my theme And shall be till I die.",
+          "Then in a nobler, sweeter song I’ll sing thy pow’r to save When this poor lisping, stamm’ring tongue Lies silent in the grave; lies silent in the grave, When this poor lisping, stamm’ring tongue Lies silent in the grave"
+        ],
+        "chorus": ""
+      },
+      "twi": {
+        "title": "BURA BI Wɛ Hɛ MOGYA MA",
+        "verses": [
+          "Bura bi wɛ hɛ mogya ma Ɛhwieε Immanuel mfem Na nnebɛneyɛfoɛ tɛ mu a Wɛn afɛdie year.",
+          "Wo mogya tumi rempa da. Nyankopɛn Adwammaa Gyesɛ wo ma nyinaa nya nkwa Na wɛn yɛ bɛne bio.",
+          "Efirisɛ ede gyedie huu Mogya a efi wo mfem Onyame dɛ ayɛ me dwom ɛbɛyɛ akɛ wuo mu",
+          "Mɛto wo nkwagye tumi no Ho anuonyam nnwom dɛɛdɛ Da a me tɛkyerɛma pemee yi Bɛyɛ dinn wɛ amoa mu."
+        ],
+        "chorus": ""
+      }
+    },
+    {
+      "id": 48,
+      "number": "399",
+      "english": {
+        "title": "SWEET BY AND BY",
+        "verses": [
+          "There’s a land that is fairer than day, And by faith we can see it afar For the Savior waits over the way, To prepare us a dwelling place there",
+          "We shall sing on that beautiful shore The melodious songs of the blest And our spirits shall sorrow no more, Not a sigh for the blessings of rest.",
+          "To our bountiful Father above, We will offer our tribute of praise For the glorious gift of His love, And the blessings that hallow our days."
+        ],
+        "chorus": "In the sweet by and by, We shall meet on that beautiful shore, In the sweet by and by, We shall meet on the beautiful shore."
+      },
+      "twi": {
+        "title": "эMAN BI Wɛ Hɛ ƐHYERƐN SEN WIM",
+        "verses": [
+          "эman bi wɛ hɛ ɛhyerɛn sen wim Yɛde gyedie hu wɛ akyiri Na Agya retwɛn wɛ kwan so Asiesie tenabea ama yɛn yɛ.",
+          "Yɛbɛto wɛ mpoano fɛfɛ hɛ Nhyirafoɛ nnwom a ɛɛ dɛ no Yɛn honhom renni yea ara da Yɛnsi apini yɛn home mu.",
+          "Yɛn soro Agya ɛdɛɛfoɛ no Yɛde yɛn ayɛyie bɛma no Wɛ nhyira a ɛde dom yɛn ha Ne ne dɛ akyɛdeɛ fɛfɛ nti."
+        ],
+        "chorus": "Daakye bi anigyesɛm Yɛbɛhyia wɛ mpoano fɛfɛ hɛ."
+      }
+    },
+    {
+      "id": 49,
+      "number": "179",
+      "english": {
+        "title": "I SURVEY THE CROSS",
+        "verses": [
+          "When I survey the wondrous cross On which the Prince of glory died, My richest gain I count but loss, And pour contempt on all my pride.",
+          "Forbid it, Lord, that I should boast, Save in the death of Christ my Lord; All the vain things that charm me most, I sacrifice them to His blood.",
+          "See, from His head, His hands, his feet, Sorrow and love flow mingled down; Did e’er such love and sorrow meet? Or thorns compose so rich a crown?",
+          "Were the whole realm of nature mine, That were a present far too small; Love so amazing, so divine, Demands my soul, my life, my all."
+        ],
+        "chorus": ""
+      },
+      "twi": {
+        "title": "SƐ MEDWEN ASENNUA NWANWA A",
+        "verses": [
+          "Sɛ medwen Asennua nwanwa a Nuonyam Hene wuu so no ho a Memmu m’adepa biara hwee Na mahomaso yɛ me tan.",
+          "Awurade, mma mennhoran Gyesɛ Kristo me Nyame wuo m’ Nneɛma hunu a mɛdɛ no Mede bɛ afɛdeɛ ne mogya m’",
+          "Hwɛ sɛ yea ne ɛdɛ resen Ne ti, ne nsa, ne ne nan ho Saa dɛ ne yea yi mmɛ mu pɛn Na nsɛe kyɛ yi wɛnsoaa bi da.",
+          "Wiase nyinaa yɛ me de po a Anka ɛyɛ akyɛdeɛ a ɛsua Anwanwa dɛ, Nyame dɛ yi Agye kra, nkwa, ade nyinaa."
+        ],
+        "chorus": ""
+      }
+    },
+    {
+      "id": 50,
+      "number": "220",
+      "english": {
+        "title": "ONWARD, CHRISTIAN SOLDIERS",
+        "verses": [
+          "Onward, Christian soldiers, marching as to war, With the cross of Jesus going on before Christ, the royal Master, leads against the foe, Forward into battle, see, his banners go.",
+          "At the sign of triumph Satan’s host doth flee On, then, Christian soldiers, on to victory Hell’s foundations quiver at the shout of praise Brothers, lift your voices loud your anthems raise.",
+          "Like a mighty army, moves the Church of God; Brothers, we are treading where the saints have trod, We are not divided, all one body we, One in hope and doctrine, one in charity.",
+          "Onward, then ye people, join our happy throng; Blend with ours your voices in the triumph song; Glory, laud and honor, Unto Christ the King; this thru countless ages, Men and angels sing."
+        ],
+        "chorus": "Onward, Christian soldiers, marching as to war With the cross of Jesus, going on before."
+      },
+      "twi": {
+        "title": "KRISTO ASRAAFOƐ",
+        "verses": [
+          "Kristofoɛ asraafoɛ Monnuom akono, Yesu asennua no De yɛn anim kan, Yɛn Hene atu sa Reko tia tamfoɛ, Monnuon sraban no so Monhwɛ ne frankaa.",
+          "Yɛma ne frankaa so a ɛbonsam dɛm gu, ɛnneɛ Kristo akofoɛ Monkɛdi nkonim, Yɛbɛ se yi ayɛ a Saman fapem hm Anuanom monto nnwom Momma mo nne so.",
+          "Ahennwa bɛtutu Ahenniw atwam, Yesu asɛre de ɛbɛtim hɛ daa, Asaman apon no Rentumi nhyɛ so, Yɛwɛ Kristo bɛhyɛ N’asɛm rentwam da.",
+          "Me nkurɛfoɛ momɛdɛm Anigyeɛ kuo yi, Mommra na yɛmmom nto Yɛn nkunim dwom yi Anuonyam ne nkamfoɛ Nka yɛn Hene no Nnipa ne abɛfoɛ Bɛto dwom yi daa."
+        ],
+        "chorus": "Kristofoɛ asraafoɛ Monnuom akono Yesu asennua no Di yɛn anim kan."
+      }
+    },
+    {
+      "id": 51,
+      "number": "592",
+      "english": {
+        "title": "O HAPPY DAY",
+        "verses": [
+          "O happy day that fixed my choice, On thee my savior and my God Well may this glowing heart rejoice, And tell its raptures all abroad.",
+          "Tis done this great transaction's done, I m the lord's and He is mine He drew me and I followd on Charmed to confess the voice divine.",
+          "Now rest, my long divided heart Fixed on this blissful center, rest; Nor eer from my Lord depart, With Him of every good possessed."
+        ],
+        "chorus": "Happy day, happy day When Jesus washed my sins away. He taught me how to watch and pray, And live rejoicing every day."
+      },
+      "twi": {
+        "title": "ANIGYE DA",
+        "verses": [
+          "Anigye da, εne da no a Mede me ho maa m'Agyenkwa εsε sε me koma di dε Na эka ne dε kyerε aman.",
+          "Apam kεseε no wawie pam Me yε ne de, эyε me de эtwetwee me, medii n'akyi Ne Nyame nne no yε me dε.",
+          "Afei me koma a wakyini akyε Bεhome wэ homebea ha Na mfi wo Awurade nkyεn da Wo fa no a woafa nhyira nyinaa."
+        ],
+        "chorus": "Nigye da, 'nigye da Da a Yesu horoo me ho bэne εkyerεε me sε menwεn mmэ mpae Na meni dε berε nyinaa Nigye da, 'nigye da Da a Yesu horoo me ho bэne."
+      }
+    },
+    {
+      "id": 52,
+      "number": "321",
+      "english": {
+        "title": "AT THE CROSS",
+        "verses": [
+          "Alas, and did my Savior bleed And did my Sovereign die; Would He devote that sacred head For such a worm as I?",
+          "Was it for crimes that I have done, He groaned up on the tree. Amazing pity, grace unknown And love beyond degree.",
+          "Well might the sun in darkness hide, And shut His glories in, When Christ, the mighty maker, Died for man the creature's sin.",
+          "But drops of grief can never repay the debt of love I owe Here, Lord, I give myself away, 'tis all that I can do."
+        ],
+        "chorus": "At the cross, at the cross where I first saw the light, And the burden of my heart rolled away, It was there by faith I received my sight, And now I am happy all the day."
+      },
+      "twi": {
+        "title": "MEMFεRE M'AWURADE HO",
+        "verses": [
+          "Memfεre m'Awurade ho Sε mεko ama no Mεsэ N'asεm no nidie mu N'asennua ho nuonyam.",
+          "Yesu, me Nyame; menim no Ne din na metwere эremma me kra mfere da Na m'anidasoэ mpa.",
+          "N'asεm tim hэ sε N'ahennwa эbetumi asie Deε mede ahyε ne nsa no Akэdu awiei o.",
+          "эbεbε wэ N'Agya anim hэ Me din a εnsε yi Na Yerusalem foforэ mu Wama me kra tenabea."
+        ],
+        "chorus": "Asenuam, asenuam, na medii kan huu hann Na me koma adesoa pire fire hэ Hэ ne menam gyedie so huu ad Na afei m'ahome ka me ho daa."
+      }
+    },
+    {
+      "id": 53,
+      "number": "",
+      "english": {
+        "title": "",
+        "verses": [],
+        "chorus": ""
+      },
+      "twi": {
+        "title": "AO BRA MA YεNNI Dε",
+        "verses": [
+          "Ao bra ma yεnni dε Dε kan meyε hiani a Afei manya Nyame ho dε эdэ a εkyεn sika.",
+          "Ao bra ma yεnni dε Sε kan metээ baha a Afei manya Otumfoэa N’abasa wεn me daa.",
+          "Ao bra ma yεnni dε Sε dan mebээ ko a Nyame de ne dэ atwe me Sε memra m’Agya fie.",
+          "Ao bra ma yεnni dε Me kra reyera no M’Agyenkwa Yesu twee me fii Bэne ne bonsam nsam.",
+          "Ao bra ma yεnni dε Afei manya yэnko a Ne dэ kyεn onua dэ po Dэ a εnni awiei.",
+          "Ao bra ma yεnni dε Ao wo a wo dε Yesu Nyame abэdeε nyinaa ara Mama yεnyi no ayε."
+        ],
+        "chorus": ""
+      }
+    },
+    {
+      "id": 54,
+      "number": "",
+      "english": {
+        "title": "",
+        "verses": [],
+        "chorus": ""
+      },
+      "twi": {
+        "title": "YESU KRISTO RESEN HA",
+        "twi_number": "54",
+        "verses": [
+          "Yesu Kristo resen ha Bэneyεni to w’ani hwε Berε pa no retwam yi Kekam se, hu me mmэbэ.",
+          "Yesu Kristo resen ha So эbεbεn wo sεε daa? εnnε ne эgye da no Hwehwε nkwa na wobenya.",
+          "эgyina hэ refrε wo эse: Menyε dεn mma wo? Sэre da wo hia sεm kyerε n’ эrefrε wo ampa ara.",
+          "Mepε sε mehub Wadom Me wura yi wo do kyerε me Ma εnhwire me kra mu εnhyε koma ne kra so."
+        ],
+        "chorus": ""
+      }
+    },
+    {
+      "id": 55,
+      "number": "",
+      "english": {
+        "title": "JESUS REIGNS EVERYWHERE",
+        "verses": [],
+        "chorus": ""
+      },
+      "twi": {
+        "title": "YESU DI HENE BAABIARA",
+        "verses": [
+          "Babiara a owia hyerεn no εtwa sε Yesu di hene N’ahenie bεtrε man nyinaa Kosi sε owia rentэ bio.",
+          "Wэbεbε no mpae daa nyinaa Na ayeyie ahyε no kyε Ne din ne afэdeε nyinaa Bεtu sε duhuam akэ soro.",
+          "Kasa hodoэ ne aman nyinaa Bεto ne dэ ho nnwom dεεdε Mmofra nso bεma wэn nne so Ato Hossanna ama ne din.",
+          "Deε эdi hene, nhyira nko mu эdaduani year ne pa Abrεfoэ nya daa ahomeka Na wэhyira ahiafoэ nso.",
+          "Babiara a эkyerε ne tumi Wuo ne mmusuo fi hэ koraa Ne mu na Adam mma nya nkwa Kyεn deε wэn agya yerae no.",
+          "Moma abэdeε nyinaa nsэre Mfa akyεdeε mmrε wэn Hene Abэfoэ, momfa nnwom nsian bio Na asase nna nsэ mu nto."
         ],
         "chorus": ""
       }

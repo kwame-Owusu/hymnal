@@ -179,7 +179,7 @@ function searchHymn(data) {
         console.log("Found hymn:", result[0]);
         console.log(result[0].english.verses);
         userSearch.classList.remove("input-error");
-        // You can call your renderHymn function here if you want to display it
+        // renderHymn function here if you want to display it
         renderHymn(result[0]);
         userSearch.value = "";
 
@@ -215,4 +215,3 @@ function searchHymn(data) {
 
 const data = await renderJsonData();
 searchHymn(data);
-console.log(`${capitalize("hello world")}`);
