@@ -153,7 +153,7 @@
     },
     {
       "id": 8,
-      "number": "",
+      "number": "twi_6",
       "english": {
         "title": "BREBRE NA EYE",
         "verses": [
@@ -196,7 +196,7 @@
     },
     {
       "id": 10,
-      "number": "",
+      "number": "twi_8",
       "english": {
         "title": "O KA ASEMPA NO",
         "verses": [
@@ -1077,10 +1077,17 @@
     },
     {
       "id": 53,
-      "number": "",
+      "number": "twi_53",
       "english": {
-        "title": "",
-        "verses": [],
+        "title": "AO BRA MA YεNNI Dε",
+        "verses": [
+          "Ao bra ma yεnni dε Dε kan meyε hiani a Afei manya Nyame ho dε эdэ a εkyεn sika.",
+          "Ao bra ma yεnni dε Sε kan metээ baha a Afei manya Otumfoэa N’abasa wεn me daa.",
+          "Ao bra ma yεnni dε Sε dan mebээ ko a Nyame de ne dэ atwe me Sε memra m’Agya fie.",
+          "Ao bra ma yεnni dε Me kra reyera no M’Agyenkwa Yesu twee me fii Bэne ne bonsam nsam.",
+          "Ao bra ma yεnni dε Afei manya yэnko a Ne dэ kyεn onua dэ po Dэ a εnni awiei.",
+          "Ao bra ma yεnni dε Ao wo a wo dε Yesu Nyame abэdeε nyinaa ara Mama yεnyi no ayε."
+        ],
         "chorus": ""
       },
       "twi": {
@@ -1098,15 +1105,19 @@
     },
     {
       "id": 54,
-      "number": "",
+      "number": "twi_54",
       "english": {
-        "title": "",
-        "verses": [],
+        "title": "YESU KRISTO RESEN HA",
+        "verses": [
+          "Yesu Kristo resen ha Bэneyεni to w’ani hwε Berε pa no retwam yi Kekam se, hu me mmэbэ.",
+          "Yesu Kristo resen ha So эbεbεn wo sεε daa? εnnε ne эgye da no Hwehwε nkwa na wobenya.",
+          "эgyina hэ refrε wo эse: Menyε dεn mma wo? Sэre da wo hia sεm kyerε n’ эrefrε wo ampa ara.",
+          "Mepε sε mehub Wadom Me wura yi wo do kyerε me Ma εnhwire me kra mu εnhyε koma ne kra so."
+        ],
         "chorus": ""
       },
       "twi": {
         "title": "YESU KRISTO RESEN HA",
-        "twi_number": "54",
         "verses": [
           "Yesu Kristo resen ha Bэneyεni to w’ani hwε Berε pa no retwam yi Kekam se, hu me mmэbэ.",
           "Yesu Kristo resen ha So эbεbεn wo sεε daa? εnnε ne эgye da no Hwehwε nkwa na wobenya.",
@@ -1118,10 +1129,17 @@
     },
     {
       "id": 55,
-      "number": "",
+      "number": "twi_55",
       "english": {
-        "title": "JESUS REIGNS EVERYWHERE",
-        "verses": [],
+        "title": "YESU DI HENE BAABIARA",
+        "verses": [
+          "Babiara a owia hyerεn no εtwa sε Yesu di hene N’ahenie bεtrε man nyinaa Kosi sε owia rentэ bio.",
+          "Wэbεbε no mpae daa nyinaa Na ayeyie ahyε no kyε Ne din ne afэdeε nyinaa Bεtu sε duhuam akэ soro.",
+          "Kasa hodoэ ne aman nyinaa Bεto ne dэ ho nnwom dεεdε Mmofra nso bεma wэn nne so Ato Hossanna ama ne din.",
+          "Deε эdi hene, nhyira nko mu эdaduani year ne pa Abrεfoэ nya daa ahomeka Na wэhyira ahiafoэ nso.",
+          "Babiara a эkyerε ne tumi Wuo ne mmusuo fi hэ koraa Ne mu na Adam mma nya nkwa Kyεn deε wэn agya yerae no.",
+          "Moma abэdeε nyinaa nsэre Mfa akyεdeε mmrε wэn Hene Abэfoэ, momfa nnwom nsian bio Na asase nna nsэ mu nto."
+        ],
         "chorus": ""
       },
       "twi": {
@@ -1242,7 +1260,7 @@
     },
     {
       "id": 60,
-      "number": "",
+      "number": "twi_60",
       "english": {
         "title": "KRISTO YεN WURA ASэRE NNε",
         "verses": [
@@ -1599,6 +1617,138 @@
           "Wama aduan a ɛsen sɛɛ Daa anigyeɛ ho bɛhyɛ.",
           "Anuonyam nka hene, dɛɛfoɛ Abɛdeɛ nto anuonyam Anuonyam nka Agya, ɛba Ne Honhom, Baasakro no."
         ],
+        "chorus": ""
+      }
+    },
+    {
+      "id": 75,
+      "number": "twi_75",
+      "english": {
+        "title": "KOKO BI SI NOHO ARA",
+        "verses": [
+          "Koko bi si nohoa ara Kuro kεseε n’akyi hɛ Nea wɛsɛn yɛn wura no Owui gyee yɛn nkwa no.",
+          "Yɛnim nso yɛrentumi nka Yea kɛseɛ a ɔhui Nanso yɛgyedi sɛ yɛn nti Na wɛsɛn no wɛ ho.",
+          "Obiara nni hɛ a ɔyɛ a Obɛtumi bɔne ayi ɛno nko na ɛbetumi abue Ɔsoro pon ama yɛn.",
+          "O W’adɛyɛn dɛ kɛse pa ɛsɛ sɛ yɛ dɛ no Na yɛatwere ne mogya no Na yɛayɛ n’adwuma."
+        ],
+        "chorus": ""
+      },
+      "twi": {
+        "title": "KOKO BI SI NOHO ARA",
+        "verses": [
+          "Koko bi si nohoa ara Kuro kεseε n’akyi hɛ Nea wɛsɛn yɛn wura no Owui gyee yɛn nkwa no.",
+          "Yɛnim nso yɛrentumi nka Yea kɛseɛ a ɔhui Nanso yɛgyedi sɛ yɛn nti Na wɛsɛn no wɛ ho.",
+          "Obiara nni hɛ a ɔyɛ a Obɛtumi bɔne ayi ɛno nko na ɛbetumi abue Ɔsoro pon ama yɛn.",
+          "O W’adɛyɛn dɛ kɛse pa ɛsɛ sɛ yɛ dɛ no Na yɛatwere ne mogya no Na yɛayɛ n’adwuma."
+        ],
+        "chorus": ""
+      }
+    },
+    {
+      "id": 76,
+      "number": "twi_76",
+      "twi": {
+        "title": "ƐBƐNE HU NYANSA NTƐM",
+        "verses": [
+          "Ɛbɛne hu nyansa ntɛm Ntwɛn da foforɛ ansa Sɛ woda so po nyansa a Ɛyɛ den sɛ wobɛnya.",
+          "Su frɛ ahummɔbɔ ntɛm Ntwɛn da foforɛ ansa Anyɛ a woberɛ atwam Ansa na owia atɛ.",
+          "Ɛbɛne san w’akyi ntɛm Ntwɛn da foforɛ ansa Bɛyɛ na wo kanea adum Na nkwahosan aba.",
+          "Ɛbɛne yɛ ntɛm gye nhyira Ntwɛn da foforɛ ansa Ansa na mmusuo ato wo Ansa na de akye."
+        ],
+        "chorus": ""
+      },
+      "english": {
+        "title": "",
+        "verses": [],
+        "chorus": ""
+      }
+    },
+    {
+      "id": 77,
+      "number": "52",
+      "english": {
+        "title": "I NEED THEE EVERY HOUR",
+        "verses": [
+          "I need thee every hour, most gracious Lord No tender voice like thine Can peace afford",
+          "I need thee every hour, stay thou near by Temptations lose their pow’r When thou art nigh.",
+          "I need thee every hour, in joy or pain, Come quickly and abide, Or life is vain.",
+          "I need thee every hour, most Holy one, O make me thine indeed, Thou blessed Son"
+        ],
+        "chorus": "I need thee, o I need thee, Every hour I need thee O bless me now my Savior, I come to thee."
+      },
+      "twi": {
+        "title": "MEHIA WO MMERƐ NYINAA",
+        "verses": [
+          "Mehia w’mmerε nyinaa Awurade Domfoɔ Nne bi mma asomdwoe Sɛ wo de no.",
+          "Mehia wo mmerε nyinaa Twe bɛn me daa Wo bɛn me a wɛhwɛ Nni ahoɔden.",
+          "Mehia wo mmerε nyinaa Dɛ ne yea mu Bɛtena me nkyɛn, na mma ɛbra nyɛ kwa.",
+          "Mehia wo mmerε nyinaa Kyerɛ me wo pɛ Nneɛma a wonhyɛ ho bɛ Yɛ wɛ me mu."
+        ],
+        "chorus": "Nehia wo, ao mehia wo Mmerε nyinaa mehia wo Hyira me seesei m’Agyenkwa Maba wo hɔ."
+      }
+    },
+    {
+      "id": 78,
+      "number": "571",
+      "english": {
+        "title": "BRINGING IN THE SHEAVES",
+        "verses": [
+          "Sowing in the morning, sowing seeds of kindness, Sowing in the noontide and the dewy eve Waiting for the harvest, and the time of reaping",
+          "Sowing in the sunshine, sowing in the shadows, Fearing neither clouds nor winter’s chilling breeze By and by the harvest and the labor ended",
+          "Going forth with weeping, sowing for the Master To the loss sustained our spirit is often grieves. When our weeping’s over, he will bid us welcome."
+        ],
+        "chorus": "We shall come rejoicing, bringing in the sheaves Bringing in the sheaves, We shall come rejoicing, bringing in the sheaves."
+      },
+      "twi": {
+        "title": "YƐGU ABA ANƐPA AYAMYE ARA",
+        "verses": [
+          "Yegu aba anɔpa, ayamye aba Yegu aba awiaberem ne annwummerɛ Retwɛn twabere no, ɛne bera a yɛde twa Yɛde anigyeɛ bɛba, yɛde aban bɛba.",
+          "Yegu aba awiam, yegu aba nwin mu Yesuro bɔsuo ana osutɔ bere ɛnkyɛ buberɛ no ne adwuma no bɛsa Yɛde anigyeɛ bɛba, yɛde afin’bɛba.",
+          "Afei fa suu kodua aba no ma Awurade Yɛhwere nneɛma pii deɛ na yɛn werɛ ho Nanso yɛn nnisuo bɔsa na ɛbɛyɛ yɛn atuu Yɛde anigyeɛ bɛba, yɛde afin’bɛba."
+        ],
+        "chorus": "Yɛde afin’bɛba, yɛde afin’bɛba Yɛde anigyeɛ bɛba, yɛde afin’bɛba."
+      }
+    },
+    {
+      "id": 79,
+      "number": "46",
+      "twi": {
+        "title": "YESU KORA ME ASENNUA HO",
+        "verses": [
+          "Yesu kora me asennua ho Deɛ nsuo a ɛsom bo Fi Kalvary bepɔ so Sen kwa ma obiara.",
+          "W’asennua ho, dɛ ne dom Huu me kra hiani Adekyee nsroma hyɛnhyɛn Ne nsɛrɛmɛn hyerɛn me so.",
+          "Deɛ esii W’asennua ho Nyame Adwamaa kyerɛ me Ao, boa me na mennante Ne nwunu ase daa.",
+          "Mɛwɛn, matwɛn, asennua ho Kɔsi sɛ mɛtumi adu Sikaman asuogya hɔ Wɔ asuo n’akyi hɔ."
+        ],
+        "chorus": "W’asennuam, w’asennuam Na me nhoahoa me ho Kosi sɛ owuo akyi Me kra bɛhome daa."
+      },
+      "english": {
+        "title": "NEAR THE CROSS",
+        "verses": [
+          "Jesus keep me near the cross, There a precious fountain Free to all a healing stream, Flows from Calvary’s mountain.",
+          "Near the cross, a trembling soul Love and mercy found me There the Bright and Morning Star Sheds its beams around me.",
+          "Near the cross, o Lamb of God, Bring its scenes before me Help me walk from day to day, With its shadows o’er me.",
+          "Near the cross I’ll watch and wait, Hoping, trusting, ever, Till I reach the golden strand, First beyond the river."
+        ],
+        "chorus": "In the cross, in the cross, be my glory ever Till my raptured soul shall find rest beyond the river."
+      }
+    },
+    {
+      "id": 80,
+      "number": "twi_80",
+      "english": {
+        "title": "GYE WƆN A WƆAYERA WƆN A WƆREWU",
+        "verses": [
+          "Gye wɔn a wɔayera wɔn a wɔrewu Hwim wɔn firi bɔne ne damoa mu Su ma deɛ wafom kwan, ma asehwefoɔ so Ka Yesu, Gyefoɔ ho asɛm kyerɛ wɔn.",
+          "Wɔdin ne ho fɛw deɛ ɛda so retwɛn Ɔtwɛn ɔba hohwini a wabɛ ko Se wɔn aniberɛ so, se wɔn agobreaseɛm Sɛ wɔgyedi na wɔtie a ɛde bɛkyɛ.",
+          "Onipa koma mu papa bi a wɔ hɔ Nyame dom tumi ma efi yiye Ɛte sɛ sanku a ne dwom atwa sin Ɔde nsa ka noa ɛwoso bio.",
+          "Gye wɔn a wɔayera, ɛyɛ wadwuma Awurade bɛma wo ho ahoɔden Fa boasetɔ twe wɔn si kwan teaa no so Se adobɔfoɔ sɛ Gyefoɔ awu."
+        ],
+        "chorus": "Gye wɔn a wɔayera, wɔn a wɔreyera. Yesu yɛ Agyenkwa Mmɔbɔhunfoɔ"
+      },
+      "twi": {
+        "title": "",
+        "verses": [],
         "chorus": ""
       }
     }
