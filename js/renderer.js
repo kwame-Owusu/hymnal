@@ -154,6 +154,10 @@ function renderHymn(hymns) {
     currVerseNum++;
   });
 }
+function removeSpecialChars(str, keepSpaces = false) {
+  const pattern = keepSpaces ? /[^a-zA-Z0-9 ]/g : /[^a-zA-Z0-9]/g;
+  return str.replace(pattern, "");
+}
 
 /**
  * allows user to search through the search bar for a specific hymn
@@ -165,13 +169,15 @@ function searchHymn(data) {
 
   userSearch.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
-      const searchTerm = userSearch.value.toLowerCase();
+      const searchTerm = userSearch.value.toLowerCase().trim();
 
       const result = data.filter((hymn) => {
         return (
-          hymn.number.toLowerCase() === searchTerm ||
-          hymn.english.title.toLowerCase() === searchTerm ||
-          hymn.twi.title.toLowerCase() === searchTerm
+          hymn.number.toLowerCase().trim() === searchTerm ||
+          removeSpecialChars(hymn.english.title.toLowerCase().trim(), true) ===
+            searchTerm ||
+          removeSpecialChars(hymn.twi.title.toLowerCase().trim(), true) ===
+            searchTerm
         );
       });
 
@@ -190,14 +196,16 @@ function searchHymn(data) {
         errorMessage.textContent = "";
       } else {
         userSearch.classList.add("input-error");
-        errorMessage.innerText = "Hymn not found. Please try again.";
+        errorMessage.innerText =
+          "Hymn not found. Please check hymn number or title.";
         errorMessage.classList.remove("error-hidden");
 
         //Show red border
         userSearch.classList.add("input-error");
 
         //Show error message
-        errorMessage.textContent = "Hymn not found. Please try again.";
+        errorMessage.textContent =
+          "Hymn not found. Please check hymn number or title.";
         errorMessage.classList.remove("error-hidden");
         errorMessage.classList.add("error-visible");
 
@@ -207,7 +215,7 @@ function searchHymn(data) {
           errorMessage.classList.add("error-hidden");
           errorMessage.classList.remove("error-visible");
           errorMessage.textContent = "";
-        }, 2000);
+        }, 2500);
       }
     }
   });
