@@ -30,6 +30,7 @@ body {
   grid-template-columns: 1fr 0px;
   height: 100vh;
   overflow-y: auto;
+  overflow-x: hidden;
   text-align: center;
   transition: grid-template-columns 0.3s ease-in-out;
   background: linear-gradient(to bottom, #f7f1e3, #e8dcc6);
