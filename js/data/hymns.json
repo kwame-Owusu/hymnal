@@ -3327,6 +3327,517 @@
         ],
         "chorus": ""
       }
+    },
+    {
+      "id": 149,
+      "number": "68",
+      "english": {
+        "title": "COUNT YOUR BLESSINGS",
+        "verses": [
+          "When upon life’s billows you are tempest tossed, When you are discouraged, thinking all is lost, Count your many blessings, name them one by one, And it will surprise you what the Lord hath done.",
+          "Are you ever burdened with a load of care? Does the cross seem heavy you are called to bear? Count your many blessings, every doubt will fly, And you will be singing as the days go by.",
+          "When you look at others with their lands and gold, Think that Christ has promised you His wealth untold; Count your many blessings, money cannot buy Your reward in Heaven, nor your home on high.",
+          "So, amid the conflict whether great or small, Do not be discouraged, God is over all; Count your many blessings, angels will attend, Help and comfort give you to your journey's end."
+        ],
+        "chorus": "Count your blessings, name them one by one,Count your blessings, see what God hath done!Count your blessings, name them one by one,Count your many blessings, see what God hath done."
+      },
+      "twi": {
+        "title": "KAN WO NHYIRA",
+        "verses": [
+          "Sε Ɔbra asorƆkye rebƆ wo akƆ a, Na woaba mu bu, Redwen sε biribi a ayera a, Kan wo nhyira pii no to din nkoro nkoro, Na deε Awurade ayε ama wo Bεyε wo nwanwa.",
+          "Sε Ɔbra adwendwen ayε wo adesoa a, Na asεnnua a εso wo no mu ayε duru, Kan wo nhyira pii no na akyinyi nyinaa BεkƆ, Na woani bεgye εna retwam yi.",
+          "Sε wohwε εbinom a wƆnya wƆn hoa, Dwen sε Krosto de ahonya a εkyεn so ahyε wo bƆ, Kan wo nhyira pii a sika ntumi ntε, Wo akatua ne wofie a εwƆ soro hƆ.",
+          "εnti sε Ɔhaw no mu yε den sεn ara, Nya abotƆyam Nyame no a bεkyerε, Kan wo nhyira pii no ma abƆfo bεtie, εbεma wo awerεkyekye akwantu yi mu."
+        ],
+        "chorus": "Kan wo nhyira, to din nkoro nkoro,Kan wo nhyira hwε deε Nyame ayε,Kan wo nhyira, to din nkoro nkoro,Kan wo nhyira dodoƆ, hwε deε Nyame ayε."
+      }
+    },
+    {
+      "id": 150,
+      "number": "78",
+      "english": {
+        "title": "HARK, THE GENTLE VOICE",
+        "verses": [
+          "Hark! The gentle voice of Jesus falleth, Tenderly upon your ear; Sweet His cry of love and pity calleth, Turn and listen, stay and hear.",
+          "Take His yoke, for He is meek and lowly, Bear His burden, to Him turn; He who calleth is the Master holy, He will teach if you will learn.",
+          "Then, His loving, tender voice obeying, Bear His yoke, His burden take; Find the yoke His hand is on you laying, Light and easy for His sake."
+        ],
+        "chorus": "Ye that labor and are heavy laden,Lean upon your dear Lord’s breast."
+      },
+      "twi": {
+        "title": "TIE, εNNE BRεOO NO",
+        "verses": [
+          "Tie! Wo Yesu nne dεεdε no refrε, εgyegye brεoo woaso mu; Ɔrefrε ƆdƆ ne ahumƆbrƆ mu, Dan woani tie twεn n ate.",
+          "Fan e kƆnkua no efisε Ɔdwo, Soa w’adesoa kƆ ne kyeεn; Deε Ɔfrε wo no ε Ɔwura kronkron, Ɔbε kyerε sε wo sua a.",
+          "Yε asotie ma ne dƆ nne brεoo no, Fa ne kƆndua ne adesoa; Hwehwε ne kƆndua ne nsa da wo so, Ne nti Ɔbra mu nyε duru."
+        ],
+        "chorus": "Mo a moabrε na mo nnesoa mu ayεdu,Montwere mo wura no bom.Moa a moabrε na mo nnesoa mu ayεdu,Mommra mεgye mo ahome."
+      }
+    },
+    {
+      "id": 151,
+      "number": "twi_151",
+      "english": {
+        "title": "εTRA NHUNUMU",
+        "verses": [
+          "Wo dɔ a ɛho yɛ na no tra ɛnhunumu, M’Agyenkwa Yesu nanso me kra yi Pɛ sɛ ohui wo dɔ no kɛseyɛ, Ne trɛ ne korɔn, ɛmu dɛ, Ne ne den a ɛyɛ nyinaa.",
+          "Wo dɔ a ho yɛ na no tra asɛmka, M’Agyenkwa Yesu nanso me ano yi Pɛ sɛ ɛka kyerɛ abɛnefoɔ nyinaa, Sɛ wo dɔ yi tumi yɛ afɛdeɛ, Na ɛwɔ ɔdɔ.",
+          "Wo dɔ a ɛho yɛ na no tra ayɛyie, M’Agyenkwa Yesu nanso m’akoma yi Pɛ sɛ ɛkamfo dɔ nwanwaso yi a, ɛtwe bɔneyɛfoɔ Te sɛ me pinii Nyame nkyɛn.",
+          "Yesu Agyenkwa fa wo dɔ hyɛ me ma, Na fa me kɔ soro abura ho Ma me mpem nkɔ nohoaa wɔ gyedi Na mma me nkwati wo Mmfa baabiara bio.",
+          "Sɛ mehu me Yesu na anim a, Na me koto ahenwa no anim Ne dɔ no kɛseyɛ ne ɛmudɔ, Ne trɛ, ne kronn ne den a ɛyɛ, Bɛyɛ me ndwom."
+        ],
+        "chorus": ""
+      },
+      "twi": {
+        "title": "εTRA NHUNUMU",
+        "verses": [
+          "Wo dɔ a ɛho yɛ na no tra ɛnhunumu, M’Agyenkwa Yesu nanso me kra yi Pɛ sɛ ohui wo dɔ no kɛseyɛ, Ne trɛ ne korɔn, ɛmu dɛ, Ne ne den a ɛyɛ nyinaa.",
+          "Wo dɔ a ho yɛ na no tra asɛmka, M’Agyenkwa Yesu nanso me ano yi Pɛ sɛ ɛka kyerɛ abɛnefoɔ nyinaa, Sɛ wo dɔ yi tumi yɛ afɛdeɛ, Na ɛwɔ ɔdɔ.",
+          "Wo dɔ a ɛho yɛ na no tra ayɛyie, M’Agyenkwa Yesu nanso m’akoma yi Pɛ sɛ ɛkamfo dɔ nwanwaso yi a, ɛtwe bɔneyɛfoɔ Te sɛ me pinii Nyame nkyɛn.",
+          "Yesu Agyenkwa fa wo dɔ hyɛ me ma, Na fa me kɔ soro abura ho Ma me mpem nkɔ nohoaa wɔ gyedi Na mma me nkwati wo Mmfa baabiara bio.",
+          "Sɛ mehu me Yesu na anim a, Na me koto ahenwa no anim Ne dɔ no kɛseyɛ ne ɛmudɔ, Ne trɛ, ne kronn ne den a ɛyɛ, Bɛyɛ me ndwom."
+        ],
+        "chorus": ""
+      }
+    },
+    {
+      "id": 152,
+      "number": "30",
+      "english": {
+        "title": "PRAY ALL THE TIME",
+        "verses": [
+          "The world has lost the right of prayer and saints have failed to pray. What loss sustained beyond repair, how blind of heart are they.",
+          "The Father speaketh in his word, He talks no other way. And to converse with Him, our Lord, we must take time to pray.",
+          "There is no trial, grief, or pain, no moment of the day, but that we may in Jesus’ name incline our souls and pray."
+        ],
+        "chorus": "Pray in the morning, pray at the noon time, pray in the evening, pray all the time."
+      },
+      "twi": {
+        "title": "BƆ MPAE MERE NYINAA",
+        "verses": [
+          "Wiase ahwere mpaebɔ kean, ahotefoɔ agyae mpaebɔ. Adehwere kɛse paa ni, o wɔn a akoma ayɛ sum.",
+          "Agya no kasa fi n’sɛm mu, ɔnkasa kwan foforo bi so. Yɛ pɛ sɛ yɛ ne Awurade kasa, ɛwɔ sɛ yɛnya bere bɔ mpae.",
+          "Sɔhwɛ, awerɛhoɔ anaa yɛa bi nni, hɔ da mu den biara mu. Sɛ yɛ kyerɛ yɛn kra sɛ ɔmmɔ mpae wɔ yɛn wura Yesu din mu."
+        ],
+        "chorus": "Bɔ mpae anɔpa, bɔ mpae awiabere, bɔ mpae anwummere, bɔ mpae bere biara, bɔ mpae mere nyinaa."
+      }
+    },
+    {
+      "id": 153,
+      "number": "64",
+      "english": {
+        "title": "FOR ME HE CARETH",
+        "verses": [
+          "Yes, for me, for me He careth, With loving, tender care. Yes, with me, with me He shareth each burden and each fear.",
+          "Yes, for me He standeth pleading at mercy’s seat above. Ever for me interceding in love, untiring love.",
+          "Yes, in me, in me He dwelleth, in me and I in Him. And my soul with hope He filleth, tho future plans are dim."
+        ],
+        "chorus": "Yes, over me, o’er me He watcheth, ceaseless watcheth night and day. Yes, in me abroad He sheddeth joys unearthly, love and light. Thus I wait for His returning, singing all the way to Heaven. Yes, even me, even me, He snatcheth from perils of the way. And to cover me He spreadeth His loving wings of might. Such the joyful song of morning, such tranquil song of ev’n."
+      },
+      "twi": {
+        "title": "ƐDWENE ME HO",
+        "verses": [
+          "Yiw me na ɔde ɔdɔ ne ahwɛyie dwene me ho. Yiw ɔne me kyɛ me nneɛma ne me hu nyinaa. Yiw me so, me so na ɔhwɛ, ɔwɛn me awia ne anadwo. Yiw me mpo, me mpo ɔhwim me fi ɔkwan mu mmusuo mu.",
+          "Yiw ɔgyina ahummɔbɔ adwa anim resrɛ ma me. Na ɔkɔ so di ma me ɔdɔ a ɛnsa da mu. Yiw ɔma me nya wɔ me mu soro anigye, ɔdɔ, ne hann. Na ɔde ne dɔ taban tumi no kata me so.",
+          "Yiw ɔte, ɔte me mu na me nso me te ne mu. Ɔde anidaso hyɛ me kra ma maba mu bu a. Ɛnti merewɛn ne mmae mereto dwom akɔ soro. Anɔpa ahosɛpɛ nnwom ne anwummere nnwom."
+        ],
+        "chorus": ""
+      }
+    },
+    {
+      "id": 154,
+      "number": "154",
+      "english": {
+        "title": "HALLELUJAH KAMFO YEHOWA",
+        "verses": [
+          "Halleluya, hyira Yehowa Kamfo ne din fi soro Kamfo ɛsorosor Yehowa Nabɔfo nyinaa nkamfo no Wi, bosome, soro nsoromma O mo a mo te soro akyi nohoaa Ne mo sorofo nyinaa.",
+          "Ade nyinaa nkamfo Yehowa Ne pɛ na ɛyɛ wɔn nyinaa Na w’ahyɛ wɔn nyinaa den daa Na ne merɛ bɛtim hɔ daa Nonhyira Yehowa asaase so Mo nsuyiri ne mmoa nyinaa Ɛgya, ahum ne aham nyinaa Asorɔkye a ɛte ne nne.",
+          "Mo nnua a mo so aba nyinaa Mo akɛkoɔ no mmepɔ Mmoa a wɔnam ne deɛ wɔwea nyinaa Nnomaa a wotu nam wim mu Asaase so ahene ne nnipa nyinaa Adehyeɛ ne ahenema nso Mmeranteɛ, mabaawa nyinaa nhyira no Mpanin ne mmɛfra nye so."
+        ],
+        "chorus": "Momma yɛn nkamfo Yehowa Fisɛ ne din nko na ɛso Na yɛn ma n’anuonyam no so Na yɛn ma n’anuonyam no so Na yɛn ma n’anuonyam no so Ɛntra soro ne asaase."
+      },
+      "twi": {
+        "title": "HALLELUJAH KAMFO YEHOWA",
+        "verses": [
+          "Halleluya, hyira Yehowa Kamfo ne din fi soro Kamfo ɛsorosor Yehowa Nabɔfo nyinaa nkamfo no Wi, bosome, soro nsoromma O mo a mo te soro akyi nohoaa Ne mo sorofo nyinaa.",
+          "Ade nyinaa nkamfo Yehowa Ne pɛ na ɛyɛ wɔn nyinaa Na w’ahyɛ wɔn nyinaa den daa Na ne merɛ bɛtim hɔ daa Nonhyira Yehowa asaase so Mo nsuyiri ne mmoa nyinaa Ɛgya, ahum ne aham nyinaa Asorɔkye a ɛte ne nne.",
+          "Mo nnua a mo so aba nyinaa Mo akɛkoɔ no mmepɔ Mmoa a wɔnam ne deɛ wɔwea nyinaa Nnomaa a wotu nam wim mu Asaase so ahene ne nnipa nyinaa Adehyeɛ ne ahenema nso Mmeranteɛ, mabaawa nyinaa nhyira no Mpanin ne mmɛfra nye so."
+        ],
+        "chorus": "Momma yɛn nkamfo Yehowa Fisɛ ne din nko na ɛso Na yɛn ma n’anuonyam no so Na yɛn ma n’anuonyam no so Na yɛn ma n’anuonyam no so Ɛntra soro ne asaase."
+      }
+    },
+    {
+      "id": 155,
+      "number": "84",
+      "english": {
+        "title": "HAVE THINE OWN WAY",
+        "verses": [
+          "Have Thine own way, Lord Have thine own way Thou art the Potter, I am thy clay, mould me and make me After thy will, while I am waiting Yielded and still.",
+          "Have thine own way, Lord Have thine own way, Lord Have thine own way Search me and try me, master today Whiter than snow, Lord Wash me just now, as in thy presence Humbly I bow.",
+          "Have thine own way, have thine own way Wounded and weary, help me I pray Power, all power, surely is thine Touch me and heal me Savior divine.",
+          "Have thine own way, Have thine own way, Hold o’er my being, Absolute sway Fill with thy spirit Till all shall see Christ only Always, living in me."
+        ],
+        "chorus": ""
+      },
+      "twi": {
+        "title": "Yε DEε WOPε",
+        "verses": [
+          "Yε deε wopε owura Yε deε wopε Wone Ɔnwemfo me yε dƆteε WƆ wo pε mu Mede Ɔpene retwεn wo yi.",
+          "Yε deε wopε owura Yε deε wopε Hwehwε me mu na SƆ mehwε nnε Dware me na menyε Sε sukyerεma Mekoto woanim nnidie mu yi",
+          "Yε deε wopε owura Yε deε wopε Mesrε wo boa me M’apira m’abrε Tumi nyinaa ara Yε wo dea ampa Fa wonsa ka me Sa me yare.",
+          "Yε deε wopε owura Yε deε wopε Di me so koraa Sε wopε teε Ma wo honhom mmee me Na obiara nhu Sε Kristo na Ɔte me mu daa."
+        ],
+        "chorus": ""
+      }
+    },
+    {
+      "id": 156,
+      "number": "103",
+      "english": {
+        "title": "A BEAUTIFUL LIFE",
+        "verses": [
+          "Each day I’ll do a golden deed By helping those who are in need My life on earth is but a span And so I’ll do the best I can, the best I can",
+          "To be a child of God each day By light must shine along the way I’ll sing His praise while ages Roll and strive to help the best I can, The best I can.",
+          "The only life that will endure is one that’s Kind and good and pure and so for God I’ll take my stand each day I’ll lend a helping hand A helping hand.",
+          "I’ll help some one in time of need And journey on with rapid speed I’ll help the sick and poor and weak And words of kindness to them speak Kind words I’ll speak.",
+          "While going down life’s weary road I’ll try to lift some traveller’s load I’ll try to turn the night to day Make flowers bloom along the way, The lonely way."
+        ],
+        "chorus": "Life’s evening sun is sinking low A few more days and I must go to meet the deeds That I have done Where there will be no setting sun."
+      },
+      "twi": {
+        "title": "ABRABƆ FεεFε",
+        "verses": [
+          "Da biara mεyε ade pa bi Mεboa wƆn a wƆhia me mmoa Me nkwa nna yi retwam akƆ εnti mεyε deε mεtumi bia . NyesoƆ Ɔbra awia retwam akƆ Aka kakra na merekƆ AkƆ akƆhyia deε mayε nyinaa WƆ bea owia rentƆ bio.",
+          "Mεyε Nyame ba daa nyinaa a Twa sε me kanea hyerεn kwan nom Mεkamfo no mere retwam yi Na maboa Ɔkra ƆwƆ haw mu.",
+          "AbrabƆ a εtumi tim εne ayamyε ne ahoteε εnti megyina ama Awurade Da biara mεyε obi moa.",
+          "Mεboa obi a ne ho a akyere no Na mede saa atu me kwan Mεboa ayarefoƆ ne ahiafoƆ Mεka asεmdε akyerε wƆn.",
+          "Me nam Ɔbra berε kwan mu yi MεbƆmmƆden aboa obi Na mεma sum adan adekyeε Na mama kwan no mu ayε dε."
+        ],
+        "chorus": "Ɔbra awia retwam akƆ Aka kakra na merekƆ AkƆ akƆhyia deε mayε nyinaa WƆ bea owia rentƆ bio."
+      }
+    },
+    {
+      "id": 157,
+      "number": "108",
+      "english": {
+        "title": "THE CALL FOR REAPERS",
+        "verses": [
+          "Far and near the fields are teeming With the waves of ripened grain Far and near their gold is gleaming O’er the sunny slope and plain.",
+          "Send them forth with morn’s first beaming, Send them in the noon tide’s glare When the sun’s last rays are gleaming Bid them gather ev’ry where.",
+          "O thou, whom thy Lord is sending Gather now the sheaves of gold Heavenward then at evening wending Thou shalt come with joy untold."
+        ],
+        "chorus": "Lord of harvest, send forth reapers Hear us, Lord to thee we cry"
+      },
+      "twi": {
+        "title": "ATWAFOƆ FRε",
+        "verses": [
+          "Baabiara, nƆbae aba WƆ mfuo mu Na aba a abere no Hyerεn asaase so mea nyinaa.",
+          "Soma wƆn anƆpa nhema Soma wƆn awiabere Na sε owia retƆ a Ma wƆn moaboa ano baabi ara.",
+          "O wo a wo wua resoma KƆboaboa nƆbae no afin mu Na sε onwun retƆ Wo de anigye BεkƆ Ɔsoro fie."
+        ],
+        "chorus": "Otwa wura soma atwafoƆ Tie yεn wura Yesu frε wo Soma wƆn seesei Na wƆn moaboa ano Ansa na twaberε atwam’"
+      }
+    },
+    {
+      "id": 158,
+      "number": "378",
+      "english": {
+        "title": "TRUSTING JESUS, THAT IS ALL",
+        "verses": [
+          "Simply trusting ev’ry day, trusting thru a stormy way Even when my faith is small Trusting Jesus, that is all.",
+          "Brightly doth His spirit shine Into this poor heart of mine While He leads I cannot fall.",
+          "Singing, if my way is clear Praying if the path is drear If in danger for Him call Trusting Jesus, that is all.",
+          "Trusting Him while life shall last Trusting Him till earth is past Till within the jasper wall Trusting Jesus, that is all."
+        ],
+        "chorus": "Trusting as the moments fly Trusting as the days go by Trusting Him whatever befall Trusting Jesus, that is all."
+      },
+      "twi": {
+        "title": "METWERE YESU",
+        "verses": [
+          "Da biara metwere no Metwere no asorƆkye kwan mu Sε me gyedi sua mpo a Sε metwere Yesu nko a n a εhia.",
+          "Ne honhom no hyerεn wƆ Me mmƆborƆ akoma yi mu Ɔdi manim a menhwe ase Sε metwere Yesu nko a n’εhia.",
+          "Meto dwom me hu kwan mu a MebƆ mpae kwan no mu yε hu a Mefrε no amaneε mu Sε mεtwere Yesu nkoa n’εhia.",
+          "Metwere no mete nkwan mu yi Kosi sε asaase bεtwa m’ Na mεhyεn n ‘aban no mu Sε mεtwere Yesu nko a n’εhia."
+        ],
+        "chorus": "Metwere no berε rekƆ yi Metwere no nna retwam yi Metwere no bribiara mu Metwere Yesu nko a n’εhia."
+      }
+    },
+    {
+      "id": 159,
+      "number": "96",
+      "english": {
+        "title": "MAKE A CHANNEL OF BLESSING",
+        "verses": [
+          "Is your life a channel of blessing? Is the love of God flowing thru you? Are you telling the lost of the Savior? Are you ready his service to do?",
+          "Is your life a channel of blessing? Are you burdened for those that are lost? Have you urged upon those who are straying? The savior who died on the cross?",
+          "Is your life a channel of blessing? Is it daily telling for Him? Have you spoken the word of salvation To those who are dying in sin?",
+          "We cannot be channels of blessing If our lives are not free from all sin We will barriers be and a hindrance To those we are trying to win."
+        ],
+        "chorus": "Make me a channel of blessing today Make me a channel of blessing, I pray My life possessing, my service blessing Make me a channel of blessing today."
+      },
+      "twi": {
+        "title": "Yε ME NHYIRA KWAN",
+        "verses": [
+          "Enti wo abrabƆ ye nhyira kwan? Onyame dƆ tene fa wo mu? Wode Agyenkwa kyerε wεn a wƆayera Wo ayε ahoboa sε wobε som no?",
+          "Enti woabrabƆ yε nhyira kwan? WƆn a wƆayera no ho hia wo? Woatwe akobƆfƆ adwen asi Agyenkwa a Ɔwui dua no so?",
+          "Enti woabrabƆ yε nhyira kwan Worebrε ma wƆn a wƆyera? Enti woaka nkwagye asεm no Akyerε wƆn a wƆwu bƆne mu?",
+          "Yerentumi nyε nkwagye kwan Sε yεabrabƆ nte bƆne ho Yε bεsikwan ayε suntidua Ama wƆn a yεpεsε yεgye wƆn."
+        ],
+        "chorus": "Ma me nyε nhyira kwan εnnε Me srε sε ma me nyε nhyira kwan Bεfa me bra yi, hyira me som yi Ma me nyε nhyira εkwan bi εnnε"
+      }
+    },
+    {
+      "id": 160,
+      "number": "112",
+      "english": {
+        "title": "ANGRY WORDS, O LET THEM NEVER",
+        "verses": [
+          "Angry words o let them never From the tongue unbridled slip May the heart’s best impulse ever Check them ere they soil the lip.",
+          "Love is much too pure and holy Friendship is too sacred far For a moments’ reckless folly Thus to desolate and mar.",
+          "Angry words are lightly spoken Bitt’rest thoughts are rashly stirred Brightest links of life are broken By a single angry word."
+        ],
+        "chorus": "Love one another, thus saith the savior Children obey the Father’s blest command Love one another thus saith the Savior Children obey his blest command."
+      },
+      "twi": {
+        "title": "ABUFUSεM",
+        "verses": [
+          "Oεmma abufusεm bi Mmfi manom mpue da Ma makoma mu papa no Nhwε sε ngu mano fi",
+          "ƆdƆ ho te na yε kronkron Adamfofa yε kronkron paa Mmerε tia asεm huhuo bi Tumi sεe na twa ne nyinaa mu.",
+          "Yεka abufusεm ntεm so Yεdwene nsεm yea ho Na yεde abufusεm koro Tete Ɔbra yƆnko homa mu."
+        ],
+        "chorus": "Mo no dƆ mo ho Agyenkwa no aka Mma mondi mo Agya ahyεdeε so Mo no dƆ mo ho Agyenkwa no aka Mma mondi mo Agya ahyεdeε so"
+      }
+    },
+    {
+      "id": 161,
+      "number": "113",
+      "english": {
+        "title": "TO THE WORK",
+        "verses": [
+          "To the work, we are servants of God Let us follow the path that our Master has tred With the balm of His counsel our strength to renew Let us do with our night what our hands find to do",
+          "To the work to the work Let the hungry be fed To the fountain of life let the weary be led In the cross and its banner our glory shall be While we herald, the tidings salvation is free",
+          "To the work to the work ther is labor for all For the kingdom of darkness and error shall fall And the name of Jehovah exalted shall be In the loud swelling chorus, salvation is free.",
+          "To the work to the work in the strength of the Lord And a robe and a crown shall our labor reward When the home of the faithful our dwelling shall be And we shout with the ransomed,salvation is free."
+        ],
+        "chorus": "Toiling on, toiling on Let us hope let us watch, and labor till the master comes"
+      },
+      "twi": {
+        "title": "KƆ ADWUMA NO SO",
+        "verses": [
+          "Yε adwuma no, yε adwuma no Yε yε Nyame asomfoƆ Moma yεn nni yƆn wura anamƆn no akyi Moma yεn nfa na afutu No nhyε yεn ho den Moma yεn nyere yεn ho Nya deε yεn nsa atƆ so.",
+          "Yε adwuma no, yε adwuma no Yεnhwε ahiafoƆ Yεnfa abrεfoƆ nkƆ nkwa abura no ho Asεndua no mu na yεbεnya anuonyam Berε a yεerteεm sε Ɔde nkwagye ma kwa.",
+          "Yε adwuma no, yε adwuma no Dwuma wƆ hƆ ma obia Na yεapagy Yehowa din no akƆ soro WƆ nnwonto denden mu Sε Ɔde nkwagye ma kwa.",
+          "Yε adwuma no, yε adwuma no Awurade ahoƆden mu Ɔde atadeε ne ahenkyε bεtua yεn ka Sε yεkƆtena nokwafoƆ fie hƆ a Na yε ne ahyirafo bεteam sε Ɔde Nkwagye ma kwa."
+        ],
+        "chorus": "Yεn nkƆ so, yεn nkƆ so Yεn nkƆ so, yεn nkƆ so Yεnfa yεan into, na yεnwεn mƆ mpae Nyε adwuma ntwεn yεn wura mmaeε."
+      }
+    },
+    {
+      "id": 162,
+      "number": "144",
+      "english": {
+        "title": "NEARER, STILL NEARER",
+        "verses": [
+          "Nearer, still nearer close to thy heart Draw me, my savior so precious thou art Fold me o fold me close to thy breast Shelter me safe in that heaven of rest Shelter me safe in that heaven of rest",
+          "Nearer, still nearer, nothing I bring Naught as an offering to Jesus my King Only my sinful now contrite heart Grant me the cleansing thy blood doth impart Grant me the cleansing thy blood doth impart.",
+          "Nearer, still nearer, Lord to be thine Sin with its follies I gladly resign All of its pleasures pump and its pride Give me but anchor is cast, tho’ endless ages Ever to be, nearer, my Jesus my Lord crucified Give but Jesus my Lord crucified.",
+          "Nearer, still nearer, while life shall last Till safe in glory my anchor is cast Tho’ endless ages ever to be, nearer, my Savior, still nearer to thee, nearer my Savior still Nearer to thee"
+        ],
+        "chorus": ""
+      },
+      "twi": {
+        "title": "MEPε Sε ME Yε ODWUMAYεFOƆ",
+        "verses": [
+          "Me pε sε me yε adwuma ma Awurade Me pε sε metwere nasem kronkron no Na mato nnwom abƆ mpae Ayε adwuma dabiara WƆ Awurade ahenie mu.",
+          "Mepε sε me yε adwuma dabiara Na mekyerε wƆn a wƆafom Ɔkwan no A εkƆ εsoro hƆ faako asomdwoe ne dƆ wƆ Awurade ahenie mu.",
+          "Me pε sε menya ahoƆden ne aboƆduru Na metwere Yesu nkwagye tumi no WƆn a wƆba nokoprε mu Benya anigye tenabea WƆ Awurade ahenie mu.",
+          "Awurade boa me na me nyε adwuma Mentwe deε wƆayera mmra woasεm no mu. εkyere anigye wƆ soro Faako ahosεpε ntwa Awurade ahenie mu."
+        ],
+        "chorus": "Mεyε adwuma, mεbƆ mpae WƆ Awurade bobeturo no mu hƆ Mεyε adwuma, mεbƆ mpae Na masom dabiara Owura no bobeturo no mu."
+      }
+    },
+    {
+      "id": 163,
+      "number": "127",
+      "english": {
+        "title": "HE HIDETH MY SOUL",
+        "verses": [
+          "A wonderful savior is Jesus my Lord A wonderful Saviour to me He hideth my soul in the cleft of the Rock, Where rivers of pleasure I see.",
+          "A wonderful Savior is Jesus my Lord He taketh my burden away He holdeth me up and I shall not be moved He giveth me strength my day",
+          "With numberless blessings each moment he crowns And filled with his fullness divine I sing in my raptures o glory to God For such a redeemer as mine",
+          "When clothed in His brightness, transported I rise To meet him in clouds of the sky his perfect salvation His wondrous love I'll shout with the millions on high."
+        ],
+        "chorus": "He hideth my soul in the cleft of the Rock That shadows a dry, thirsty land; He hideth my life in the depth of his love And covers me there with his hand And covers me there with his hand."
+      },
+      "twi": {
+        "title": "ƆDE MEKRA SIE",
+        "verses": [
+          "Agyenkwa nwanwa bi ne Yesu me wura Ɔyε Agyenkwa nwanwa ma me Ɔde mekra sie Ɔbotan bƆn no mu Deε mehu anigye nsuo no.",
+          "Agyenkwa nwanwa bi ne Yesu me wura Ɔyi m’adesoa fi hƆ Ɔma me gyina na merenhimhim da Ɔma mahoƆden daa nyinaa.",
+          "Ɔde nhyira pii bƆ mabotire merε nyinaa Ne mayε kronkron hyε me so M’anigyem meto nnwom nuonyam nka Nyame sε woama me ƆgyefoƆ sεε yi.",
+          "Mede me hann no hyε na mekƆ soro Kohyia no wiem munumkum mu Ne nkwagye a εyε pε ne dƆ nwanwa no Me ne soro dƆм no bεteam."
+        ],
+        "chorus": "Ɔde mekra sie Ɔbotan no bƆn mu εkata asaase pεsεe so Ɔde mekra sie ne dƆ no abun mu Ɔde ne nsa kata me so Ɔde ne nsa kata me so."
+      }
+    },
+    {
+      "id": 164,
+      "number": "twi_164",
+      "english": {
+        "title": "MEHIA YESU",
+        "verses": [
+          "Mehia Yesu, mehia a mepae mu ka Yεnko bi nni hε sεno ahokyerε mu Mehia Yesu, hia a mede anigye di Ebinom nko soa wadesoa mpo a Mehia Yesu.",
+          "Mehia Yesu, mehia yεnko sε no Akyerε me kwan Sε Ɔbra kwan mu duru sum a Mehia Yesu sε atamfo ba me so Menim sε me nko ntumi nyina Nti mehia Yesu.",
+          "Mehia Yesu, mehia no kƆ awieε Obi nsε no abƆnefoƆ ayƆnko Mehia Yesu, mempε yεnko foforƆ Ɔyε ayamyε, Ɔdi nokorε Yiw mehia Yesu."
+        ],
+        "chorus": "Mehia Yesu, mehia Yesu Mehia Yesu, dabiara Mehia no wƆ merε pa mu Mehia no sε ahumtu Dabiaa wƆ mabrabƆ m’ Yεw, mehia Yesu."
+      },
+      "twi": {
+        "title": "MEHIA YESU",
+        "verses": [
+          "Mehia Yesu, mehia a mepae mu ka Yεnko bi nni hε sεno ahokyerε mu Mehia Yesu, hia a mede anigye di Ebinom nko soa wadesoa mpo a Mehia Yesu.",
+          "Mehia Yesu, mehia yεnko sε no Akyerε me kwan Sε Ɔbra kwan mu duru sum a Mehia Yesu sε atamfo ba me so Menim sε me nko ntumi nyina Nti mehia Yesu.",
+          "Mehia Yesu, mehia no kƆ awieε Obi nsε no abƆnefoƆ ayƆnko Mehia Yesu, mempε yεnko foforƆ Ɔyε ayamyε, Ɔdi nokorε Yiw mehia Yesu."
+        ],
+        "chorus": "Mehia Yesu, mehia Yesu Mehia Yesu, dabiara Mehia no wƆ merε pa mu Mehia no sε ahumtu Dabiaa wƆ mabrabƆ m’ Yεw, mehia Yesu."
+      }
+    },
+    {
+      "id": 165,
+      "number": "144",
+      "english": {
+        "title": "NEARER, STILL NEARER",
+        "verses": [
+          "Nearer, still nearer, close to Thy heart Draw me, my Savior, so precious Thou art Fold me, O fold me close to Thy breast Shelter me safe in that haven of rest Shelter me safe in that haven of rest.",
+          "Nearer, still nearer, nothing I bring Naught as an offering to Jesus, my King Only my sinful, now contrite heart Grant me the cleansing Thy blood doth impart Grant me the cleansing Thy blood doth impart.",
+          "Nearer, still nearer, Lord, to be Thine Sin with its follies I gladly resign All of its pleasures, pomp and its pride Give me but Jesus, my Lord crucified Give me but Jesus, my Lord crucified.",
+          "Nearer, still nearer, while life shall last Till safe in glory my anchor is cast Through endless ages ever to be Nearer, my Savior, still nearer to Thee Nearer, my Savior, still nearer to Thee."
+        ],
+        "chorus": ""
+      },
+      "twi": {
+        "title": "WONKYƐN NKO ARA",
+        "verses": [
+          "Wonkyɛn nko ara, na ma me mɛn Twe me m’Agyenkwa a wosom bo pii O yɛ me atuu, me nna wo bom Na fa mesie wɛ saa homebia hɔ Na fa mesie wɛ saa homebia hɔ.",
+          "Wonkyɛn nko ara menkura hwee Menni hwee de brɛ wo Yesu me hene Sɛ me bɔne koma a abubu Ma me ahote a, wo mogya no de ma Ma me ahote a, wo mogya no de ma.",
+          "Wonkyɛn nko ara me nyɛ wo de Me po bɔne nsɛm hunu anigyem Ɛmu anigye ne ahomasoɔ Fa me wura Yesu a wosɛn no ma me Fa me wura Yesu a wosɛn no ma me.",
+          "Wonkyɛn nko ara merɛ a mete ase yi Kosii sɛ mɛdu anuonyam mu dwoodwoo Mpo sɛ daa apem mu na mɛtena Wo nkyɛn m’agyenkwa wo nkyɛn nko ara Wo nkyɛn m’Agyenkwa wo nkyɛn nko ara."
+        ],
+        "chorus": ""
+      }
+    },
+    {
+      "id": 166,
+      "number": "146",
+      "english": {
+        "title": "WHAT DID HE DO?",
+        "verses": [
+          "O listen to our wondrous story Once we dwelt among the lost Yet Jesus came from heaven glory Saving us at awful cost",
+          "No angel could our place have taken Highest of the high tho He Nailed to the cross, despised, forsaken Was one of the Godhead three",
+          "Will you surrender to this Savior? Now before Him humbly bow You too, shall come to know His favor, He will save and save you now."
+        ],
+        "chorus": "Who saved us from eternal lose? What did He do? Where is he now? In heaven interceding"
+      },
+      "twi": {
+        "title": "ƐYƐƐ DƐƐN?",
+        "verses": [
+          "O montie yɛn anwanwa sɛm yi Merɛ bi na yɛn nso y’ayera Yesu firi ne soro anuonyam mu bae Ɛbɛtɔɔ yɛn abɔden",
+          "Soro Abɔfo bi ntumi nyina yɛannan mu Sɛ ɛso sɛ dɛn mpo a Wɔsɛe no na ɔbiara poo no Nyame baasa koro no bi",
+          "Wode wo ho bɛma Agyenkwa yi? Koto wɔ n’anim seesei Wo nso bɛba abɛhu n’adom no Ɛbegye wo seisei ara."
+        ],
+        "chorus": "Hwan na ɛgyee yɛn fii daa yera mu? Hwan sɛ Nyame ba wɔ asɛndua so? Dɛn na ɔyɛɛe, ɔwui maa wo Ɛwɔ he afei, gyedi sɛ ɔwɔ soro hɔ redi Ma yɛn"
+      }
+    },
+    {
+      "id": 167,
+      "number": "176",
+      "english": {
+        "title": "STANDING ON THE PROMISES",
+        "verses": [
+          "Standing on the promises of Christ my King Thru eternal ages let his praises ring Glory n the highest, I will shout and sing Standing on the promises of God",
+          "Standing on the promises that cannot fall When the howling storms of doubt and fear as sail By the living Wordd of God I shall prevail",
+          "Standing on the promises I now can see Perfect, present cleansing in the blood for me Standing in the liberty where Christ makes free",
+          "Standing on the promises of Christ the Lord Bound to Him eternally by love's strong cord Overcoming daily with the Spirit's sword",
+          "Standing on the promises I cannot fall, Listning ev'ry moment to the Spirit's call Resting in my Savior, as my all in all"
+        ],
+        "chorus": "Standing, standing, standing on the promises of God My savior, standing I'm standing on the promises of God"
+      },
+      "twi": {
+        "title": "MEGYINA BƐHYƐ NO SO",
+        "verses": [
+          "Megyina Kristo me hene bɛhyɛ noso Monyi no ayɛ meresanten nyinaa mu Anuonyam wɔ soro hɔ mɛteɛm ato Megyina Nyame bɛhyɛ no so",
+          "Megyina bɛhyɛ a ɛntumi ngu no so Sɛ akyingye ne suro mframa bɛ me a Metintim Nyame nsɛm a ɛte ase no mu Megyina Nyame bɛhyɛ no so",
+          "Megyina bɛhyɛ a afei mehu no so Edware me te me ho mogya no mu Megyina Nyame bɛhyɛ no so"
+        ],
+        "chorus": "Megyina megyina Megyina m'Agyenkwa Nyame bɛhyɛ no so Megyina megyina Megyina Nyame bɛhyɛ no so"
+      }
+    },
+    {
+      "id": 168,
+      "number": "185",
+      "english": {
+        "title": "WHO WILL FOLLOW JESUS?",
+        "verses": [
+          "Who will follow Jesus, Standing for the right Holding up His banner In the thickest flight? List'ning for His orders, ready to obey Who will follow Jesus, Serving Him today?",
+          "Who will follow Jesus, In life's busy ways Working for the Master, giving Him the praise Earnest in His vineyard, honoring his laws Faithful to his counsel, watchful for his cause?",
+          "Who will follow Jesus, when the temperature charms Fleeing, then for safety to the savior's arms Trusting in His mercy, trusting in His pow'r Seeding fresh renewals of his grace each hour?",
+          "Who will follow Jesus In His work of love, Leading others to Him Lifting prayers above? Courage, faithful servant In his word we see, on our side for ever Will this savior be?"
+        ],
+        "chorus": "Who will follow Jesus? Who will make reply, 'I am on the Lord's side, master here am i? Who will follow Jesus? Who will make reply, 'I am on the Lord's side."
+      },
+      "twi": {
+        "title": "HWAN NA ƐBΕDI YESU AKYI?",
+        "verses": [
+          "Hwan na bεdi Yesu akyi? Agyina ama tenenee Ama ne frankaa no so Wɔko kεse mu Atie ne mara no pεsp ɛbεdi so Hwan na bεdi Yesu akyi asom no εnnε?",
+          "Hwan na ɛbεdi Yesu akyi abrabɔ yi mu Yɛ adwuma ma owura no ayi no ayɛ Abɛ mɛden n'afuom adi ne mara so Atie n'afotuo ahwɛ ne ho yie.",
+          "Hwan n'ɛbεdi Yesu akyi sɛ nkɛhwɛ ba a Adwan' akɛ asomdwoe agyenkwa no nsam Atwere n'ahumɛbɛ atwere ne tumi Ahwehwɛ ayɛ foforo n'adom mu merε nyinaa"
+        ],
+        "chorus": "Hwan na ɛbεdi Yesu akyi Hwan na ɛbua sɛ Mewɔ Awurade afa me wura me wɔ ha Hwan na bεdi Yesu akyi Hwan na ɛbua sɛ Mewɔ Awurade afa me wura me wɔ ha."
+      }
+    },
+    {
+      "id": 169,
+      "number": "186",
+      "english": {
+        "title": "DOWN IN THE VALLEY",
+        "verses": [
+          "Down in the valley with my Saviour I would go, where the flowers are blooming and the sweet waters flow, everywhere he leads me I would follow, follow on, walking in his footsteps till the crown be won.",
+          "Down in the valley with my Saviour I would go, where the storms are sweeping and the dark waters flow, with his hand to lead me I will never, never fear; danger cannot fright me if my Lord is near.",
+          "Down in the valley or upon the mountain steep, close beside my Saviour would my soul ever keep. He will lead me safely in the path that he has trod, up to where they gather on the hills of God."
+        ],
+        "chorus": "Follow, follow, I would follow Jesus, anywhere, everywhere, I would follow on. Follow, follow, I would follow Jesus. Everywhere he leads me I would follow on."
+      },
+      "twi": {
+        "title": "MΕDI M'AGYENKWA AKYI",
+        "verses": [
+          "Mεdi m'Agyenkwa akyi Akɔ bonhwa no mu. Dεε nhwiren abu na nsuo dεεdε sene. Baabiara ɔkyerε no Mεdi n'akyi akɔ Mεdi n'akyi kɔsi sε mεnya ahenkyε no.",
+          "Mεdi m'Agyenkwa akyi Akɔ bonhwa no mu. Dεε asɔrɔkyε rebb na εsum aduru no Sε ne nsa di m'anim yi merensuro da bi Mmusuo ntumi nhuna me sε M'Awurade bεn me a.",
+          "Bonhwa no ase anaa mmepɔ atifi Me kra bεkɔ so abεn Agyenkwa no daa ɔbεgya me dwoodwoo akwan a wafa soɔ no Akɔ deε wɔhyia Nyame kokoɔ so."
+        ],
+        "chorus": "Mεdi n'akyi, mεdi Yesu akyi Baabiara ɔbεkyerε mεdi n'akyi daa. Mεdi n'akyi mεdi Yesu akyi Baabiara ɔkyerε me mεdi n'akyi akɔ."
+      }
+    },
+    {
+      "id": 170,
+      "number": "190",
+      "english": {
+        "title": "LEANING ON THE EVERLASTING ARMS",
+        "verses": [
+          "What a fellowship what a joy divine, Leaning on the everlasting arms What a blessedness, what a peace is mine, Leaning on the everlasting arms.",
+          "O how sweet to walk in this pilgrim way, Leaning on the everlasting arms O how bright the path grows from day to day, Leaning on the everlasting arms",
+          "What have I to dread, what have I to fear, Leaning on the everlasting arms I have blessed peace with my Lord so near Leaning on the everlasting arms."
+        ],
+        "chorus": "Leaning, leaning Safe and secure from all alarms Leaning on the everlasting arms."
+      },
+      "twi": {
+        "title": "METWERE BASA A ƐNWU DA NO",
+        "verses": [
+          "Yɛnkofa bɛn ni, anigye kronkron Metwere basa a ɛnwu da no Nhyira bɛn ni asomdwoe bɛn ni Metwere basa a ɛnwu da no.",
+          "Akwantu yi mu nanteɛ ayɛ dɛ Metwere basa a ɛnwu da no. O hwɛ sɛ me kwan no mu hyerɛn daa Metwere basa a ɛnwu da no.",
+          "Deɛn na ɛhuna me, deɛn na mesuro? Metwere basa a ɛnwu da no Me wura bɛn me yi menya asomdwoe Metwere basa a ɛnwu da no."
+        ],
+        "chorus": "Metwere, metwere (Metwere Yesu, metwere Yesu) Akomatuo nni me so bio Metwere, metwere Metwere basa a ɛnwu da no."
+      }
     }
   ]
 }
