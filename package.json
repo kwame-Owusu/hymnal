@@ -23,15 +23,13 @@
     ],
     "win": {
       "target": "nsis",
-      "icon": "assets/hymnal_app_logo.ico"
+      "icon": "assets/hymnal_logo.ico"
     },
     "mac": {
-      "target": "dmg",
-      "icon": "assets/hymnal_app_logo.ico"
+      "target": "dmg"
     },
     "linux": {
-      "target": "AppImage",
-      "icon": "assets/hymnal_app_logo.ico"
+      "target": "AppImage"
     }
   },
   "repository": {
@@ -46,10 +44,9 @@
     "url": "https://github.com/kwame-Owusu/hymnal/issues"
   },
   "homepage": "https://github.com/kwame-Owusu/hymnal#readme",
-  "dependencies": {
-    "electron": "^36.5.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "electron-builder": "^26.0.12"
+    "electron-builder": "^26.0.12",
+    "electron": "^36.5.0"
   }
 }
