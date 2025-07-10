@@ -1,10 +1,38 @@
 {
   "name": "hymnal",
   "version": "1.0.0",
-  "description": "Hymnal is a desktop application to allow one to search through christian hymns.",
+  "description": "Hymnal is a desktop application to allow one to search through christian hymns from twi to english.",
   "main": "js/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder",
+    "build-win": "electron-builder --win",
+    "build-mac": "electron-builder --mac",
+    "build-linux": "electron-builder --linux"
+  },
+  "build": {
+    "appId": "com.kwameowusu.hymnal",
+    "productName": "COC hymnal",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!node_modules/**/*",
+      "node_modules/your-required-modules/**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/hymnal_app_logo.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/hymnal_app_logo.ico"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "assets/hymnal_app_logo.ico"
+    }
   },
   "repository": {
     "type": "git",
@@ -20,5 +48,8 @@
   "homepage": "https://github.com/kwame-Owusu/hymnal#readme",
   "dependencies": {
     "electron": "^36.5.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^26.0.12"
   }
 }
