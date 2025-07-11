@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -19,7 +19,51 @@
     <title>Hymnal</title>
   </head>
   <body>
-    <div class="top-nav">
+    <div class="app-container">
+      <header class="header">
+        <div class="logo">
+          <div class="logo-icon">♪</div>
+          <span>Hymnal</span>
+        </div>
+        <div class="search-container">
+          <div class="search-icon">🔍</div>
+          <input
+            id="search-input"
+            type="text"
+            class="search-box"
+            placeholder="Search hymns, numbers, or title..."
+            aria-label="Search hymns"
+          />
+          <div id="error-message" class="error-hidden"></div>
+        </div>
+        <div class="header-actions">
+          <div class="checkbox-item">
+            <label class="custom-checkbox checkbox-slide">
+              <input type="checkbox" />
+              <span class="slidemark"></span>
+              <span class="label-text">Dual Mode</span>
+            </label>
+          </div>
+          <button class="action-btn" aria-label="Toggle night mode">🌙</button>
+          <button class="action-btn" aria-label="Settings">⚙️</button>
+          <button class="action-btn primary">📊 Stats</button>
+        </div>
+      </header>
+          <div class="container cross-pattern">
+      <div class="left-panel">
+        <h2>English</h2>
+      </div>
+
+      <div class="right-panel">
+        <h2>Twi</h2>
+      </div>
+    </div>
+    <div class="font-buttons">
+      <button class="incr-btn">A+</button>
+      <button class="decr-btn">A-</button>
+    </div>
+    </div>
+    <!-- <div class="top-nav">
       <div class="search-bar">
         <input type="search" id="search-input" placeholder="Search hymn..." />
         <div id="error-message" class="error-hidden"></div>
@@ -32,7 +76,8 @@
           <span class="label-text">Dual Mode</span>
         </label>
       </div>
-    </div>
+    </div> -->
+
     <div class="container cross-pattern">
       <div class="left-panel">
         <h2>English</h2>
