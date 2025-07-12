@@ -15,9 +15,14 @@
   --beige-light: #eeefe0;
   --light-orange: #dfd0b8;
   --bg-color: #faf6e9;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #f7f1e3;
 }
 .app-container {
@@ -284,7 +289,6 @@ body {
 }
 .left-panel p,
 .right-panel p {
-  font-style: italic;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
   color: #5d4e37;
   text-align: center;
@@ -354,7 +358,7 @@ p {
 }
 .incr-btn,
 .decr-btn {
-  border: 1px solid #333;
+  border: none;
   color: #333;
   cursor: pointer;
   font-size: 1rem;
@@ -370,7 +374,7 @@ p {
 .incr-btn:hover,
 .decr-btn:hover {
   background-color: var(--light-orange);
-  border: 1px solid var(--light-orange);
+
   color: white;
 }
 
