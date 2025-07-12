@@ -151,8 +151,6 @@ body {
   border-radius: 0.5rem;
   display: grid;
   margin-top: 50px;
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
   grid-template-columns: 1fr 0px;
   height: 100vh;
   overflow-y: auto;
@@ -161,6 +159,84 @@ body {
   transition: grid-template-columns 0.3s ease-in-out;
   background: linear-gradient(to bottom, #f7f1e3, #e8dcc6);
 }
+
+/*Hymn display section*/ 
+.hymn-header {
+  background: linear-gradient(
+    135deg,
+    var(--dark-bg-1) 0%,
+    var(--dark-bg-2) 100%
+  );
+  color: var(--beige-light);
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.hymn-display {
+  background: var(--beige-light);
+  border-radius: 20px;
+  border: 2px solid var(--beige);
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(34, 40, 49, 0.15);
+}
+
+.hymn-header {
+  background: linear-gradient(
+    135deg,
+    var(--dark-bg-1) 0%,
+    var(--dark-bg-2) 100%
+  );
+  color: var(--beige-light);
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+
+@keyframes gentle-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.1;
+  }
+}
+
+.hymn-number-badge {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  background: var(--green-light);
+  color: var(--dark-bg-1);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(167, 193, 168, 0.3);
+}
+
+.hymn-title-main {
+  color: var(--beige-light);
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  position: relative;
+  z-index: 2;
+}
+
+.hymn-subtitle {
+  font-size: 20px;
+  color: var(--light-orange);
+  font-weight: 400;
+  position: relative;
+  z-index: 2;
+}
+
 .container::before {
   content: "";
   position: absolute;
