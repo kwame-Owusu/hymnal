@@ -10,6 +10,10 @@ const leftPanel = document.querySelector(".left-panel");
 const rightPanel = document.querySelector(".right-panel");
 const container = document.querySelector(".container");
 const divider = document.querySelector(".divider");
+const hymnHeader= document.querySelector(".hymn-header");
+const hymnNum = document.querySelector(".hymn-number-badge");
+const hymnTitleMain= document.querySelector(".hymn-title-main");
+const hymnSubtitle= document.querySelector(".hymn-subtitle");
 
 /**
  *
@@ -85,7 +89,6 @@ async function renderJsonData() {
     return hymns;
   } catch (error) {
     console.error("Failed to load data:", error);
-    showErrorMessage("Failed to load data");
   }
 }
 
@@ -108,12 +111,10 @@ function renderHymn(hymns) {
   leftPanel.innerHTML = "";
   let currVerseNum = 1;
 
-  const headingEng = document.createElement("h2");
-  const headingTwi = document.createElement("h2");
-  headingEng.innerHTML = `${capitalize(hymns.english.title)}`;
-  headingTwi.innerHTML = `${capitalize(hymns.twi.title)}`;
+  hymnTitleMain.textContent = `${capitalize(hymns.english.title)}`; 
+  hymnSubtitle.textContent = `${capitalize(hymns.twi.title)}`; 
+  hymnNum.textContent  = `#${hymns.number}`;
 
-  leftPanel.appendChild(headingEng);
   // Loop through the English verses and create separate <p> elements
   hymns.english.verses.forEach((verse, index) => {
     const verseElement = document.createElement("p");
@@ -135,7 +136,6 @@ function renderHymn(hymns) {
   });
 
   currVerseNum = 1;
-  rightPanel.appendChild(headingTwi);
 
   hymns.twi.verses.forEach((verse, index) => {
     const verseElement = document.createElement("p");
