@@ -138,19 +138,6 @@ body {
   color: var(--dark-bg-1);
 }
 
-.container {
-  border-radius: 0.5rem;
-  display: grid;
-  margin-top: 50px;
-  grid-template-columns: 1fr 0px;
-  height: 100vh;
-  overflow-y: auto;
-  overflow-x: hidden;
-  text-align: center;
-  transition: grid-template-columns 0.3s ease-in-out;
-  background: linear-gradient(to bottom, #f7f1e3, #e8dcc6);
-}
-
 /*Hymn display section*/
 .hymn-header {
   text-align: center;
@@ -176,7 +163,6 @@ body {
   top: 25px;
   right: 25px;
   background: var(--green-light);
-  color: var(--dark-bg-1);
   padding: 10px 20px;
   border-radius: 20px;
   font-size: 16px;
@@ -209,7 +195,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: radial-gradient(
+  background-image:
+    radial-gradient(
       circle at 50% 20%,
       rgba(180, 151, 90, 0.1) 20px,
       transparent 21px
@@ -228,9 +215,24 @@ body {
   z-index: 1;
 }
 
+.container {
+  border-radius: 0.5rem;
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: 1fr 0fr;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: center;
+  background: linear-gradient(to bottom, #f7f1e3, #e8dcc6);
+  transition: all 1s ease;
+}
 .container.single-column {
-  grid-template-columns: 1fr 0px;
-  justify-items: center;
+  grid-template-columns: 1fr 0fr;
+}
+
+.container.single-column .left-panel {
+  margin-left: 200px;
 }
 
 .container.two-column {
@@ -243,8 +245,8 @@ body {
   align-items: center;
   font-size: 1.4rem;
   padding: 20px;
-  transition: all 0.3s ease-in-out;
   line-height: 1.6;
+  transition: all 1s ease;
 }
 .left-panel p,
 .right-panel p {
@@ -286,7 +288,7 @@ body {
   opacity: 1;
   visibility: visible;
   line-height: 1.6;
-  transition: all 0.3s ease-in-out;
+  transition: all 1s ease-in;
 }
 
 .right-panel.hidden {
@@ -331,13 +333,16 @@ p {
   padding-left: 1.7rem;
   padding-right: 1.7rem;
   border-radius: 1rem;
-  transition: all 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.25s ease;
   font-weight: bold;
 }
 
 .incr-btn:hover,
 .decr-btn:hover {
   background-color: var(--green-light);
+  transform: translateY(-4px);
   color: white;
 }
 
